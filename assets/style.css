@@ -1,8 +1,26 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charSet="utf-8" class="next-head"/><link rel="preload" href="/_next/5e6c2160-04c9-41b9-bdef-5e766aa61005/page/index.js" as="script"/><link rel="preload" href="/_next/5e6c2160-04c9-41b9-bdef-5e766aa61005/page/_error.js" as="script"/><link rel="preload" href="/_next/e573161ac2e341feea756f3892b127fb/app.js" as="script"/><style id="jss-server-side">html {
+  background: #fafafa;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.particles-js-canvas-el {
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  z-index:0;
+  pointer-events:none;
+  width="1140";
+  height="571";
+}
+
 body {
   margin: 0;
 }
 
-@media screen and (max-width: 568px) {
+/* @media screen and (max-width: 568px) {
         h1 {
     font-size:30px;
     }
@@ -12,24 +30,18 @@ body {
         p {
     font-size:20px;
     }
-}
+} */
 
-h5{
+/* h5{
     font-size: 1.4em;
 }
 
 p {
   text-align: justify;
-}
+} */
 
 #particles-js{
   background-image: linear-gradient( 135deg, #00f260, #0575e6);
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
 }
 
 .navbar-opacity {
@@ -53,3 +65,4461 @@ p {
   margin-top: 50px;
   margin-bottom: 100px;
 }
+
+.c2 {
+  background: #fff;
+  opacity: 0.9;
+}
+
+
+
+body {
+  margin: 0;
+}
+.c79 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  position: absolute;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.c80 {
+  opacity: 1;
+}
+.c81 {
+  opacity: 0;
+  animation: mui-ripple-exit 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.c82 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  animation: mui-ripple-pulsate 1500ms cubic-bezier(0.4, 0, 0.2, 1) 200ms infinite;
+}
+@keyframes mui-ripple-enter {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes mui-ripple-exit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes mui-ripple-pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.c83 {
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  position: absolute;
+  background: currentColor;
+  border-radius: 50%;
+}
+.c84 {
+  opacity: 0.3;
+  transform: scale(1);
+  animation: mui-ripple-enter 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.c85 {
+  animation-duration: 200ms;
+}
+.c77 {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  position: relative;
+  appearance: none;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.c77::-moz-focus-inner {
+  border-style: none;
+}
+.c78 {
+  cursor: default;
+  pointer-events: none;
+}
+.c62 {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 8px 16px;
+  min-width: 88px;
+  font-size: 0.875rem;
+  box-sizing: border-box;
+  min-height: 36px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  line-height: 1.4em;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+.c62:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+@media (hover: none) {
+  .c62:hover {
+    background-color: transparent;
+  }
+}
+.c62:hover.c74 {
+  background-color: transparent;
+}
+.c63 {
+  padding: 7px 8px;
+  min-width: 64px;
+  font-size: 0.8125rem;
+  min-height: 32px;
+}
+.c64 {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.c65 {
+  color: #9c27b0;
+}
+.c65:hover {
+  background-color: rgba(156, 39, 176, 0.12);
+}
+@media (hover: none) {
+  .c65:hover {
+    background-color: transparent;
+  }
+}
+.c66 {
+  color: #69f0ae;
+}
+.c66:hover {
+  background-color: rgba(105, 240, 174, 0.12);
+}
+@media (hover: none) {
+  .c66:hover {
+    background-color: transparent;
+  }
+}
+.c67 {
+  color: rgba(255, 255, 255, 1);
+}
+.c67:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+@media (hover: none) {
+  .c67:hover {
+    background-color: transparent;
+  }
+}
+.c68 {
+  color: inherit;
+}
+.c69 {
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),0px 2px 2px 0px rgba(0, 0, 0, 0.14),0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+  background-color: #e0e0e0;
+}
+.c69.c70 {
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 6px 10px 0px rgba(0, 0, 0, 0.14),0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+.c69:active {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),0px 8px 10px 1px rgba(0, 0, 0, 0.14),0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+.c69.c74 {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.c69:hover {
+  background-color: #d5d5d5;
+}
+@media (hover: none) {
+  .c69:hover {
+    background-color: #e0e0e0;
+  }
+}
+.c69:hover.c74 {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+@media (hover: none) {
+  .c69:hover.c74 {
+    background-color: #e0e0e0;
+  }
+}
+.c71 {
+  color: rgba(255, 255, 255, 1);
+  background-color: #9c27b0;
+}
+.c71:hover {
+  background-color: #7b1fa2;
+}
+@media (hover: none) {
+  .c71:hover {
+    background-color: #9c27b0;
+  }
+}
+.c72 {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #69f0ae;
+}
+.c72:hover {
+  background-color: #00e676;
+}
+@media (hover: none) {
+  .c72:hover {
+    background-color: #69f0ae;
+  }
+}
+.c73 {
+  color: rgba(255, 255, 255, 1);
+}
+.c74 {
+  color: rgba(0, 0, 0, 0.26);
+}
+.c75 {
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  min-width: 0;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),0px 6px 10px 0px rgba(0, 0, 0, 0.14),0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+}
+.c75:active {
+  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2),0px 12px 17px 2px rgba(0, 0, 0, 0.14),0px 5px 22px 4px rgba(0, 0, 0, 0.12);
+}
+.c76 {
+  width: 40px;
+  height: 40px;
+}
+.c55 {
+  user-select: none;
+}
+.c56 {
+  color: #69f0ae;
+}
+.c57 {
+  color: rgba(0, 0, 0, 0.54);
+}
+.c58 {
+  color: rgba(255, 255, 255, 1);
+}
+.c59 {
+  color: rgba(0, 0, 0, 0.26);
+}
+.c60 {
+  color: #f44336;
+}
+.c61 {
+  color: #9c27b0;
+}
+.c20 {
+  margin: 0 auto;
+  padding: 0;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 0;
+}
+@media(max-width : 960px) {
+  .c20 {
+    max-width: 700px;
+  }
+}
+.c21 {
+  padding: 16px;
+  text-align: center;
+}
+.c22 {
+  background: #fff;
+}
+@media (max-width:960px) {
+  .c23 {
+    text-align: center;
+  }
+}
+.c24 {
+  max-width: 100%;
+}
+.c25 {
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: product_sansbold, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c25:disabled {
+  opacity: 0.5;
+}
+.c25.link {
+  padding:  10px 20px;
+}
+.c26 {
+  background: #f7f7f7;
+}
+.c27 {
+  color: #666;
+  position: relative;
+  padding-bottom: 2em;
+}
+.c27 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c27 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c27 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c27 ul, .c27 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c27 {
+    font-size: 17px;
+  }
+}
+@media(max-width : 600px) {
+  .c27 {
+    font-size: 15px;
+  }
+  .c27 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c27 {
+    font-size: 13px;
+  }
+}
+.c28 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+}
+.c28 h2 {
+  color: #fff;
+}
+.c28 h2:after {
+  background: #28fef0;
+}
+.c29 {
+  color: #fff;
+  background: #413672;
+}
+.c29 h2 {
+  color: #fff;
+}
+.c29 h2:after {
+  background: #5ab4fe;
+}
+.c30 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c31 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media(max-width : 960px) {
+  .c31 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media(max-width : 600px) {
+  .c31 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media(max-width : 360px) {
+  .c31 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.c32 {
+  margin: 75px auto;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+.c32 h2 {
+  text-align: left;
+}
+.c32 h2:after {
+  display: none;
+}
+.c33 {
+  text-align: center;
+}
+.c34 {
+  text-align: left;
+}
+.c35 {
+  text-align: start;
+}
+.c36 {
+  color: #D00;
+}
+.c37 {
+  width: 100vw;
+  margin:  0 calc(50% - 50vw);
+  max-width: 100vw;
+}
+.c39 {
+  color: #fff;
+  height: auto;
+  padding: 0 0;
+  z-index: 1000;
+  position: relative;
+  transition: transform 0.4s, background-color 0.4s;
+  margin-bottom: -70px;
+}
+@media(max-width : 960px) {
+  .c39 {
+    padding: 0.5em 0;
+    flex-direction: column;
+    background-color: transparent;
+  }
+}
+@media(max-width : 960px) {
+  .c39.c38 .c44 {
+    display: none;
+  }
+}
+@media(max-width : 960px) {
+  .c39:not(.c38) {
+    background-color: rgba(0,0,0,0.7);
+  }
+}
+.c40 {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: rgba(0,0,0,0.7);
+}
+.c41 {
+  transform: translateY(-100%);
+}
+.c42 {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+@media(max-width : 960px) {
+  .c42 {
+    height: auto;
+    padding: 0 15px;
+    flex-direction: column;
+  }
+}
+.c43 {
+  height: 51px;
+  margin: 0 10px;
+}
+@media(max-width : 960px) {
+  .c43 {
+    flex: 1;
+    height: 40px;
+    margin: 0;
+  }
+}
+.c44 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.c44 a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+}
+.c44 > * {
+  width: auto;
+  padding: 0.7em;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+@media(max-width : 960px) {
+  .c44 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .c44 > * {
+    width: 100%;
+    padding: 0.3em;
+    text-align: center;
+  }
+}
+.c45 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.c45 a {
+  text-decoration: none;
+}
+.c45 > a > span {
+  color: #fff;
+  padding: 0 0.3em;
+  font-size: 37px;
+  font-weight: 500;
+  line-height: 51px;
+  vertical-align: top;
+}
+@media(max-width : 960px) {
+  .c45 {
+    width: 100%;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+  .c45 > a > span {
+    font-size: 29px;
+    line-height: 40px;
+  }
+}
+@media(max-width : 600px) {
+  .c45 > a > span {
+    font-size: 22px;
+    line-height: 40px;
+  }
+}
+.c46 {
+  cursor: pointer;
+  font-size: 36px;
+}
+@media(min-width : 960px) {
+  .c46 {
+    display: none !important;
+  }
+}
+.c47 {
+  margin: 0.2em!important;
+  padding: 6px 10px 4px!important;
+  font-size: 0.8em !important;
+  max-width: 200px;
+  font-weight: bold;
+  border-radius: 100px;
+}
+@media(max-width : 960px) {
+  .c47 {
+    margin: 0.1em 0.7em !important;
+  }
+}
+.c47 a {
+  width: 100%;
+}
+.c48 {
+  color: #fff;
+  z-index: 10;
+  position: relative;
+  text-align: center;
+  padding-bottom: 0;
+  background-color: #3d3453;
+}
+.c48 h2 {
+  color: #fff;
+}
+.c48 h2:after {
+  display: none;
+}
+.c49 {
+  padding: 1em 3em;
+}
+@media(max-width : 960px) {
+  .c49 {
+    padding: 1em;
+    padding-bottom: 1.5em;
+  }
+}
+@media(max-width : 600px) {
+  .c49 {
+    font-size: 0.85em;
+  }
+}
+.c50 {
+  font-size: 0.9em !important;
+  max-width: 250px;
+}
+.c51 {
+  display: block;
+  max-width: 500px;
+  font-size: 1.2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c52 {
+  opacity: 0.7;
+  font-size: 0.85em;
+}
+.c53 {
+  flex: 0.2 !important;
+  visibility: hidden;
+}
+.c54 {
+  color: #657da5;
+  width: calc(25vw - 30px);
+  height: calc(25vw - 30px);
+  display: flex;
+  max-width: 90px;
+  max-height: 90px;
+  flex-direction: column;
+  background-size: 100% 100%;
+  justify-content: center;
+  background-image: url('/static/images/popuptime.png');
+}
+@media(max-width : 500px) {
+  .c54 {
+    max-width: calc(22vw - 10px);
+    min-width: calc(22vw - 10px);
+    font-size: 7vw;
+    max-height: calc(22vw - 10px);
+    min-height: calc(22vw - 10px);
+  }
+}
+.c120 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.c121 {
+  flex: 0 0 auto;
+  margin: 0;
+  box-sizing: border-box;
+}
+.c122 {
+  flex-direction: column;
+}
+.c123 {
+  flex-direction: column-reverse;
+}
+.c124 {
+  flex-direction: row-reverse;
+}
+.c125 {
+  flex-wrap: nowrap;
+}
+.c126 {
+  flex-wrap: wrap-reverse;
+}
+.c127 {
+  align-items: center;
+}
+.c128 {
+  align-items: flex-start;
+}
+.c129 {
+  align-items: flex-end;
+}
+.c130 {
+  align-items: baseline;
+}
+.c131 {
+  align-content: center;
+}
+.c132 {
+  align-content: flex-start;
+}
+.c133 {
+  align-content: flex-end;
+}
+.c134 {
+  align-content: space-between;
+}
+.c135 {
+  align-content: space-around;
+}
+.c136 {
+  justify-content: center;
+}
+.c137 {
+  justify-content: flex-end;
+}
+.c138 {
+  justify-content: space-between;
+}
+.c139 {
+  justify-content: space-around;
+}
+.c140 {
+  width: calc(100% + 8px);
+  margin: -4px;
+}
+.c140 > .c121 {
+  padding: 4px;
+}
+.c141 {
+  width: calc(100% + 16px);
+  margin: -8px;
+}
+.c141 > .c121 {
+  padding: 8px;
+}
+.c142 {
+  width: calc(100% + 24px);
+  margin: -12px;
+}
+.c142 > .c121 {
+  padding: 12px;
+}
+.c143 {
+  width: calc(100% + 40px);
+  margin: -20px;
+}
+.c143 > .c121 {
+  padding: 20px;
+}
+.c144 {
+  flex-grow: 1;
+  max-width: 100%;
+  flex-basis: 0;
+}
+.c145 {
+  max-width: 8.3333%;
+  flex-basis: 8.3333%;
+}
+.c146 {
+  max-width: 16.6667%;
+  flex-basis: 16.6667%;
+}
+.c147 {
+  max-width: 25%;
+  flex-basis: 25%;
+}
+.c148 {
+  max-width: 33.3333%;
+  flex-basis: 33.3333%;
+}
+.c149 {
+  max-width: 41.6667%;
+  flex-basis: 41.6667%;
+}
+.c150 {
+  max-width: 50%;
+  flex-basis: 50%;
+}
+.c151 {
+  max-width: 58.3333%;
+  flex-basis: 58.3333%;
+}
+.c152 {
+  max-width: 66.6667%;
+  flex-basis: 66.6667%;
+}
+.c153 {
+  max-width: 75%;
+  flex-basis: 75%;
+}
+.c154 {
+  max-width: 83.3333%;
+  flex-basis: 83.3333%;
+}
+.c155 {
+  max-width: 91.6667%;
+  flex-basis: 91.6667%;
+}
+.c156 {
+  max-width: 100%;
+  flex-basis: 100%;
+}
+@media (min-width:600px) {
+  .c157 {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .c158 {
+    max-width: 8.3333%;
+    flex-basis: 8.3333%;
+  }
+  .c159 {
+    max-width: 16.6667%;
+    flex-basis: 16.6667%;
+  }
+  .c160 {
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .c161 {
+    max-width: 33.3333%;
+    flex-basis: 33.3333%;
+  }
+  .c162 {
+    max-width: 41.6667%;
+    flex-basis: 41.6667%;
+  }
+  .c163 {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .c164 {
+    max-width: 58.3333%;
+    flex-basis: 58.3333%;
+  }
+  .c165 {
+    max-width: 66.6667%;
+    flex-basis: 66.6667%;
+  }
+  .c166 {
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .c167 {
+    max-width: 83.3333%;
+    flex-basis: 83.3333%;
+  }
+  .c168 {
+    max-width: 91.6667%;
+    flex-basis: 91.6667%;
+  }
+  .c169 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:960px) {
+  .c170 {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .c171 {
+    max-width: 8.3333%;
+    flex-basis: 8.3333%;
+  }
+  .c172 {
+    max-width: 16.6667%;
+    flex-basis: 16.6667%;
+  }
+  .c173 {
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .c174 {
+    max-width: 33.3333%;
+    flex-basis: 33.3333%;
+  }
+  .c175 {
+    max-width: 41.6667%;
+    flex-basis: 41.6667%;
+  }
+  .c176 {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .c177 {
+    max-width: 58.3333%;
+    flex-basis: 58.3333%;
+  }
+  .c178 {
+    max-width: 66.6667%;
+    flex-basis: 66.6667%;
+  }
+  .c179 {
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .c180 {
+    max-width: 83.3333%;
+    flex-basis: 83.3333%;
+  }
+  .c181 {
+    max-width: 91.6667%;
+    flex-basis: 91.6667%;
+  }
+  .c182 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1280px) {
+  .c183 {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .c184 {
+    max-width: 8.3333%;
+    flex-basis: 8.3333%;
+  }
+  .c185 {
+    max-width: 16.6667%;
+    flex-basis: 16.6667%;
+  }
+  .c186 {
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .c187 {
+    max-width: 33.3333%;
+    flex-basis: 33.3333%;
+  }
+  .c188 {
+    max-width: 41.6667%;
+    flex-basis: 41.6667%;
+  }
+  .c189 {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .c190 {
+    max-width: 58.3333%;
+    flex-basis: 58.3333%;
+  }
+  .c191 {
+    max-width: 66.6667%;
+    flex-basis: 66.6667%;
+  }
+  .c192 {
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .c193 {
+    max-width: 83.3333%;
+    flex-basis: 83.3333%;
+  }
+  .c194 {
+    max-width: 91.6667%;
+    flex-basis: 91.6667%;
+  }
+  .c195 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1920px) {
+  .c196 {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .c197 {
+    max-width: 8.3333%;
+    flex-basis: 8.3333%;
+  }
+  .c198 {
+    max-width: 16.6667%;
+    flex-basis: 16.6667%;
+  }
+  .c199 {
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .c200 {
+    max-width: 33.3333%;
+    flex-basis: 33.3333%;
+  }
+  .c201 {
+    max-width: 41.6667%;
+    flex-basis: 41.6667%;
+  }
+  .c202 {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .c203 {
+    max-width: 58.3333%;
+    flex-basis: 58.3333%;
+  }
+  .c204 {
+    max-width: 66.6667%;
+    flex-basis: 66.6667%;
+  }
+  .c205 {
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .c206 {
+    max-width: 83.3333%;
+    flex-basis: 83.3333%;
+  }
+  .c207 {
+    max-width: 91.6667%;
+    flex-basis: 91.6667%;
+  }
+  .c208 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+.c445 {
+  right: 50px;
+  bottom: 50px;
+  z-index: 100;
+  position: fixed;
+}
+.c445 a {
+  display: block;
+}
+.c445 > label {
+  display: none;
+}
+@media(max-width : 960px) {
+  .c445 {
+    right: 30px;
+    bottom: 30px;
+  }
+}
+@media(max-width : 600px) {
+  .c445 {
+    right: 20px;
+    bottom: 20px;
+  }
+  .c445 > * {
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: 0;
+    position: absolute;
+    font-size: 7px;
+    transition: all 0.2s;
+  }
+  .c445 > label {
+    z-index: 10;
+    padding: 5px;
+    display: block;
+    opacity: 1;
+  }
+  .c445 input:checked ~ .icon-1 {
+    opacity: 1;
+    transform: translateY(-100%);
+  }
+  .c445 input:checked ~ .icon-2 {
+    opacity: 1;
+    transform: translateY(-200%);
+  }
+  .c445 input:checked ~ .icon-3 {
+    opacity: 1;
+    transform: translateY(-300%);
+  }
+  .c445 input:checked ~ .icon-4 {
+    opacity: 1;
+    transform: translateY(-400%);
+  }
+  .c445 input:checked ~ .icon-5 {
+    opacity: 1;
+    transform: translateY(-500%);
+  }
+  .c445 input:checked ~ .icon-6 {
+    opacity: 1;
+    transform: translateY(-600%);
+  }
+  .c445 input:checked ~ .icon-7 {
+    opacity: 1;
+    transform: translateY(-700%);
+  }
+  .c445 input:checked ~ .icon-8 {
+    opacity: 1;
+    transform: translateY(-800%);
+  }
+}
+@media(max-width : 360px) {
+  .c445 {
+    right: 10px;
+    bottom: 10px;
+  }
+}
+.c445 input {
+  display: none;
+}
+.c446 {
+  color: #00d500;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 40px !important;
+  background: #eee;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  border-radius: 50%;
+}
+.c421 {
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 30px;
+}
+@media(max-width : 960px) {
+  .c421 {
+    max-width: 700px;
+  }
+}
+.c422 {
+  padding: 16px;
+  text-align: center;
+}
+.c423 {
+  background: #fff;
+}
+@media (max-width:960px) {
+  .c424 {
+    text-align: center;
+  }
+}
+.c425 {
+  max-width: 100%;
+}
+.c426 {
+  color: #FFFFFF;
+  width: auto;
+  border: none;
+  padding: 10px 20px;
+  outline: none;
+  display: block;
+  font-size: 18px;
+  margin-top: 1.5em;
+  text-align: center;
+  margin-left: auto;
+  font-family: product_sansbold, sans-serif;
+  font-weight: bold;
+  margin-right: auto;
+  padding-left: 5em;
+  padding-right: 5em;
+  margin-bottom: 1.5em;
+  border-radius: 100px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c426:disabled {
+  opacity: 0.5;
+}
+.c426.link {
+  padding:  10px 20px;
+}
+.c427 {
+  background: #f7f7f7;
+}
+.c428 {
+  color: #666;
+  position: relative;
+  padding-bottom: 2em;
+}
+.c428 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c428 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c428 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c428 ul, .c428 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c428 {
+    font-size: 17px;
+  }
+}
+@media(max-width : 600px) {
+  .c428 {
+    font-size: 15px;
+  }
+  .c428 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c428 {
+    font-size: 13px;
+  }
+}
+.c429 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+}
+.c429 h2 {
+  color: #fff;
+}
+.c429 h2:after {
+  background: #28fef0;
+}
+.c430 {
+  color: #fff;
+  background: #413672;
+}
+.c430 h2 {
+  color: #fff;
+}
+.c430 h2:after {
+  background: #5ab4fe;
+}
+.c431 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c432 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media(max-width : 960px) {
+  .c432 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media(max-width : 600px) {
+  .c432 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media(max-width : 360px) {
+  .c432 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.c433 {
+  margin: 75px auto;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+.c433 h2 {
+  text-align: left;
+}
+.c433 h2:after {
+  display: none;
+}
+.c434 {
+  text-align: center;
+}
+.c435 {
+  text-align: left;
+}
+.c436 {
+  text-align: start;
+}
+.c437 {
+  color: #D00;
+}
+.c438 {
+  width: 100vw;
+  margin:  0 calc(50% - 50vw);
+  max-width: 100vw;
+}
+.c439 {
+  color: #eee;
+  width: auto;
+  margin: 0 1em 1em;
+  display: block;
+  text-decoration: none;
+}
+@media(max-width : 960px) {
+  .c439 {
+    text-align: center;
+  }
+}
+.c440 {
+  color: #eee;
+  margin: 1em 0;
+  opacity: 0.7;
+  border-top: none;
+}
+.c441 > * {
+  color: #eee;
+  opacity: 0.7;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+@media(max-width : 960px) {
+  .c441 {
+    text-align: center;
+  }
+}
+.c442 {
+  z-index: 1000;
+  position: relative;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.c443 {
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  padding: 0.5em;
+  z-index: 100;
+  position: fixed;
+  transform: translateY(100%);
+  transition: all 0.25s;
+  background-color: #333;
+}
+.c443.enable {
+  transform: translateY(0);
+}
+@media(max-width : 960px) {
+  .c443 {
+    font-size: 0.7em;
+  }
+}
+.c443.enable ~ .SocialIconFloat {
+  transform: translateY(-50px);
+}
+.c444 {
+  color: #ddd;
+  margin: 0  auto;
+  display: block;
+  max-width: 1280px;
+  font-size: 1.2em;
+  text-align: center;
+}
+.c444 span {
+  color: #f3ff42;
+}
+.c444 a {
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 4px solid rgba(106,110,112, 0.9);
+  text-decoration: none;
+}
+@media(max-width : 960px) {
+  .c444 {
+    max-width: 700px;
+  }
+}
+.c1 {
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 30px;
+}
+@media(max-width : 960px) {
+  .c1 {
+    max-width: 700px;
+  }
+}
+.c2 {
+  padding: 16px;
+  text-align: center;
+}
+.c3 {
+  background: #fff;
+}
+@media (max-width:960px) {
+  .c4 {
+    text-align: center;
+  }
+}
+.c5 {
+  max-width: 100%;
+}
+.c6 {
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: product_sansbold, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c6:disabled {
+  opacity: 0.5;
+}
+.c6.link {
+  padding:  10px 20px;
+}
+.c7 {
+  background: #f7f7f7;
+}
+.c8 {
+  color: #666;
+  position: relative;
+  padding-bottom: 2em;
+}
+.c8 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c8 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c8 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c8 ul, .c8 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c8 {
+    font-size: 17px;
+  }
+}
+@media(max-width : 600px) {
+  .c8 {
+    font-size: 15px;
+  }
+  .c8 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c8 {
+    font-size: 13px;
+  }
+}
+.c9 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+}
+.c9 h2 {
+  color: #fff;
+}
+.c9 h2:after {
+  background: #28fef0;
+}
+.c10 {
+  color: #fff;
+  background: #413672;
+}
+.c10 h2 {
+  color: #fff;
+}
+.c10 h2:after {
+  background: #5ab4fe;
+}
+.c11 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c12 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media(max-width : 960px) {
+  .c12 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media(max-width : 600px) {
+  .c12 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media(max-width : 360px) {
+  .c12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.c13 {
+  margin: 75px auto;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+.c13 h2 {
+  text-align: left;
+}
+.c13 h2:after {
+  display: none;
+}
+.c14 {
+  text-align: center;
+}
+.c15 {
+  text-align: left;
+}
+.c16 {
+  text-align: start;
+}
+.c17 {
+  color: #D00;
+}
+.c18 {
+  width: 100vw;
+  margin:  0 calc(50% - 50vw);
+  max-width: 100vw;
+}
+.c19 {
+  font-size: 18px;
+  over-flow: hidden;
+  line-height: 1.5;
+}
+.c86 {
+  margin: 0 auto;
+  padding: 0 15px;
+  z-index: 20;
+  position: relative;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 30px;
+}
+@media(max-width : 960px) {
+  .c86 {
+    max-width: 700px;
+  }
+}
+@media(max-width : 600px) {
+  .c86 {
+    padding-top: 0;
+  }
+}
+.c87 {
+  color: #666;
+  position: relative;
+  box-shadow: inset 0px 8px 24px -3px rgba(0,0,0,0.1);
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.c87 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c87 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c87 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c87 ul, .c87 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c87 {
+    padding-top: 70px;
+  }
+}
+@media(max-width : 600px) {
+  .c87 {
+    font-size: 15px;
+  }
+  .c87 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c87 {
+    font-size: 13px;
+  }
+}
+.c87 ~ * {
+  box-shadow: inset 0px 8px 24px -3px rgba(0,0,0,0.1);
+}
+.c88 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+}
+.c88 h2 {
+  color: #fff;
+}
+.c88 h2:after {
+  background: #28fef0;
+}
+.c88 + * {
+  box-shadow: none !important;
+}
+.c89 {
+  padding:  0 3em !important;
+}
+.c89 h1 {
+  font-size: 2.8em;
+  font-weight: 600;
+}
+@media(max-width : 600px) {
+  .c89 {
+    padding:  0 3vw !important;
+    font-size: 2.6vw;
+  }
+  .c89 h1 {
+    margin: 1.2em 0;
+    font-size: 1.9em;
+    font-weight: 600;
+  }
+}
+.c90 h2 {
+  font-size: 1.2em !important;
+}
+.c90 img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+.c90 img ~ div {
+  margin: 0 auto;
+  display: block;
+  max-width: 300px;
+}
+.c90 .newitems div {
+  color: #fff;
+  padding: 0.4em 0;
+  opacity: 0.8;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+@media(max-width : 960px) {
+  .c90 .newitems {
+    width: 50%;
+    margin: 0 0 0 0;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .c90 .newitems ~ .newitems {
+    margin: 0 0 0 0;
+  }
+  .c90 .newitems div {
+    padding-right: 8%;
+  }
+}
+@media(max-width : 600px) {
+  .c90 {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .c90 .newitems div {
+    font-size: 2.8vw;
+  }
+}
+.c91 {
+  color: rgba(255,255,255,0.8);
+  font-size: 1.3em;
+  max-width: 630px;
+  line-height: 2.2em;
+}
+.c91 > *  {
+  margin-left: 1.7em;
+}
+.c91 > :before {
+  content: '✻';
+  font-size: 0.7em;
+  margin-left: -1.7em;
+  margin-right: 0.7em;
+}
+.c91 b {
+  color: #fff;
+}
+@media(max-width : 960px) {
+  .c91 > *  {
+    margin-right: 0.7em;
+  }
+}
+.c92 {
+  text-decoration: none;
+}
+.c92 img {
+  border: solid 2px #fff;
+  border-radius: 10px;
+}
+@media(max-width : 600px) {
+  .c92 img {
+    border: solid 1px #fff;
+    border-radius: 5px;
+  }
+}
+.c93 {
+  color: #555;
+  padding: 20px 10px;
+  background: #fff;
+  margin-top: 50px;
+  box-shadow: 0 0 37px rgba(0,0,0,0.2);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: -150px;
+  border-radius: 10px;
+}
+@media(max-width : 600px) {
+  .c93 {
+    padding: 0 10px;
+    font-size: 0.9em;
+    margin-top: 25px;
+    margin-left: -3px;
+    margin-right: -3px;
+    border-radius: 5px;
+  }
+}
+.c94 {
+  color: #FFFFFF;
+  width: 100%;
+  margin: 1em 0.5em;
+  border: none;
+  outline: none;
+  padding: 20px 0;
+  font-size: 18px;
+  max-width: 450px;
+  box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+  font-weight: bold;
+  font-family: product_sansbold, sans-serif;
+  border-radius: 8px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c94:disabled {
+  opacity: 0.5;
+}
+.c94.link {
+  padding:  10px 20px;
+}
+.c94 a {
+  color: #373737;
+  font-size: 1.1em;
+  font-weight: 600 !important;
+  text-decoration: none;
+}
+@media(max-width : 600px) {
+  .c94 {
+    padding: 12px 0;
+    font-size: 0.9em;
+    border-radius: 5px;
+  }
+}
+.c95 {
+  margin: 0.2em;
+  padding: 9px 0;
+  font-size: 0.8em;
+  max-width: 250px;
+}
+.c96 {
+  color: #fff;
+  background-image: linear-gradient( 90deg, rgb(44, 187, 255) 0%, rgb(0, 173, 255) 100%);
+}
+.c97 {
+  color: #333;
+  background-image: linear-gradient( 90deg,#e4e4e4 0%, #e4e4e4 100%);
+}
+.c98 {
+  color: #fff;
+  background-image: linear-gradient( 90deg,#d020c7 0%, #d020c7 100%);
+}
+.c99 {
+  text-align: center;
+}
+.c100 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media(max-width : 960px) {
+  .c100 {
+    font-size: 2.8vw;
+    flex-direction: row-reverse;
+  }
+  .c100 > * {
+    width: 45%;
+  }
+}
+.c101 {
+  color: #863fe8;
+  font-weight: bold;
+}
+@media(max-width : 600px) {
+  .c101 {
+    font-size: 0.8em;
+  }
+}
+.c102 {
+  color: #777;
+  padding: 0.7em 0;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media(max-width : 600px) {
+  .c102 {
+    font-size: 0.6em;
+    font-weight: normal;
+  }
+}
+.c103 {
+  display: block;
+  max-width: 1000px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c103 h2 {
+  color: #333;
+}
+.c103 h2:after {
+  display: none;
+}
+.c104 {
+  background: #fff;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.c104 + * {
+  box-shadow: none !important;
+}
+.c104 .c91 {
+  color: #333;
+  max-width: none;
+}
+.c104 .c91 b {
+  color: #333;
+}
+.c104 .c91 > :before {
+  content: '-';
+  margin-left: -1em;
+}
+@media(max-width : 600px) {
+  .c104 .c91 {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    padding-top: 50px;
+  }
+}
+.c105 {
+  max-width: none;
+}
+.c106 {
+  z-index: 1000;
+  position: relative;
+}
+.c106 h2 {
+  color: #555;
+}
+.c106 h2:after {
+  display: none;
+}
+@media(max-width : 600px) {
+  .c106 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+}
+.c107 {
+  width: 750px;
+  color: #333;
+  padding: 0.5em 1.5em 2em;
+  position: relative;
+  max-width: calc(100% - 3em);
+  box-shadow: 0 0 15px rgba(255,255,255,0.5);
+  border-radius: 1em;
+  background-color: rgba(255,255,255,0.8);
+}
+.c107 small {
+  font-size: 0.7em;
+}
+.c108 {
+  max-width: 500px;
+  font-size: 1.2em;
+}
+.c109 {
+  font-size: 0.85em;
+}
+.c110 {
+  flex: 0.2 !important;
+  visibility: hidden;
+}
+.c111 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c112 {
+  color: #657da5;
+  width: calc(25vw - 30px);
+  height: calc(25vw - 30px);
+  display: flex;
+  max-width: 90px;
+  max-height: 90px;
+  flex-direction: column;
+  background-size: 100% 100%;
+  justify-content: center;
+  background-image: url('/static/images/popuptime.png');
+}
+@media(max-width : 500px) {
+  .c112 {
+    max-width: calc(21vw - 10px);
+    min-width: calc(21vw - 10px);
+    font-size: 7vw;
+    max-height: calc(21vw - 10px);
+    min-height: calc(21vw - 10px);
+  }
+}
+.c113 {
+  display: block;
+  max-width: 480px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c114 {
+  height: 0.6em;
+  margin: 0 -8px;
+  position: relative;
+  background-color: #c1c1c1;
+}
+.c115 {
+  top: 0;
+  left: 0;
+  height: 100%;
+  position: absolute;
+  transition: width 0.4s, backgroundPosition 0.4s;
+  background-image: url('/static/images/bar_loading.jpg');
+  background-position: left;
+}
+.c116 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.c117 {
+  font-size: 1.3em;
+}
+@media(max-width : 600px) {
+  .c117 {
+    font-size: 3.5vw;
+  }
+}
+.c118 {
+  color: #fff;
+  width: fit-content;
+  display: block;
+  padding: 0.5em 2.3em;
+  font-size: 1.2em;
+  background: #851be3;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.5em;
+}
+@media(max-width : 600px) {
+  .c118 {
+    padding: 0.5em 1.8em;
+    font-size: 3.5vw;
+  }
+}
+.c119 {
+  z-index: 1000000;
+}
+.c209 {
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 70px;
+}
+@media(max-width : 960px) {
+  .c209 {
+    max-width: 700px;
+  }
+}
+@media(max-width : 600px) {
+  .c209 {
+    padding-top: 25px;
+  }
+}
+.c210 {
+  padding: 16px;
+  text-align: center;
+}
+.c211 {
+  background: #fff;
+}
+@media (max-width:960px) {
+  .c212 {
+    text-align: center;
+  }
+}
+.c213 {
+  max-width: 100%;
+}
+.c214 {
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: product_sansbold, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c214:disabled {
+  opacity: 0.5;
+}
+.c214.link {
+  padding:  10px 20px;
+}
+.c215 {
+  background: #f7f7f7;
+}
+.c216 {
+  color: #666;
+  position: relative;
+  padding-bottom: 2em;
+}
+.c216 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c216 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c216 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c216 ul, .c216 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c216 {
+    font-size: 17px;
+  }
+}
+@media(max-width : 600px) {
+  .c216 {
+    font-size: 15px;
+  }
+  .c216 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c216 {
+    font-size: 13px;
+  }
+}
+.c217 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+}
+.c217 h2 {
+  color: #fff;
+}
+.c217 h2:after {
+  background: #28fef0;
+}
+.c218 {
+  color: #fff;
+  background: #413672;
+}
+.c218 h2 {
+  color: #fff;
+}
+.c218 h2:after {
+  background: #5ab4fe;
+}
+.c219 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c220 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media(max-width : 960px) {
+  .c220 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media(max-width : 600px) {
+  .c220 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media(max-width : 360px) {
+  .c220 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.c221 {
+  margin: 75px auto;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+.c221 h2 {
+  text-align: left;
+}
+.c221 h2:after {
+  display: none;
+}
+.c222 {
+  text-align: center;
+}
+.c223 {
+  text-align: left;
+}
+.c224 {
+  text-align: start;
+}
+.c225 {
+  color: #D00;
+}
+.c226 {
+  width: 100vw;
+  margin:  0 calc(50% - 50vw);
+  max-width: 100vw;
+}
+.c227 {
+  text-align: center;
+}
+.c227 p {
+  margin: 0 -0.5em;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.c227 img, .c227 video {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 15px;
+}
+.c227 > * {
+  padding: 0 40px;
+}
+@media(max-width : 1280px) {
+  .c227 p {
+    font-size: 1.15em;
+  }
+  .c227 img, .c227 video {
+    border-radius: 10px;
+  }
+}
+@media(max-width : 960px) {
+  .c227 > * {
+    padding: 0 0;
+  }
+}
+@media(max-width : 600px) {
+  .c227 p {
+    font-size: 3.3vw;
+  }
+}
+@media(max-width : 360px) {
+  .c227 img, .c227 video {
+    width: 110%;
+    margin: 0 -5%;
+    max-width: 110%;
+    border-radius: 5px;
+  }
+}
+.c227 .bowshadow {
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+@media(max-width : 1280px) {
+  .c227 .bowshadow {
+    box-shadow: 5px 5px 1.5vw rgba(0,0,0,0.1);
+  }
+}
+.c228 {
+  width: 100%;
+  border: solid 1px #eee;
+  position: relative;
+  overflow: hidden;
+  font-size: 1.4em;
+  text-align: center;
+  box-shadow: 0px 4px 22px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding-bottom: calc(56% + 2em);
+  background-color: #f5f5f5;
+}
+.c228 iframe, .c228 div {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 2em);
+  position: absolute;
+}
+.c228 div {
+  top: calc(100% - 2em);
+  height: 2em;
+  font-size: 0.8em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.c255 {
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 30px;
+}
+@media(max-width : 960px) {
+  .c255 {
+    max-width: 700px;
+  }
+}
+.c256 {
+  padding: 16px;
+  text-align: center;
+}
+.c257 {
+  box-shadow: none !important;
+}
+.c257 ~ * {
+  box-shadow: none !important;
+}
+@media (max-width:960px) {
+  .c258 {
+    text-align: center;
+  }
+}
+.c259 {
+  max-width: 80%;
+}
+.c260 {
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: product_sansbold, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c260:disabled {
+  opacity: 0.5;
+}
+.c260.link {
+  padding:  10px 20px;
+}
+.c261 {
+  background: #f7f7f7;
+}
+.c262 {
+  color: #666;
+  position: relative;
+  padding-bottom: 2em;
+}
+.c262 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c262 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c262 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c262 ul, .c262 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c262 {
+    font-size: 17px;
+  }
+}
+@media(max-width : 600px) {
+  .c262 {
+    font-size: 15px;
+  }
+  .c262 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c262 {
+    font-size: 13px;
+  }
+}
+.c263 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+}
+.c263 h2 {
+  color: #fff;
+}
+.c263 h2:after {
+  background: #28fef0;
+}
+.c264 {
+  color: #fff;
+  background: #413672;
+}
+.c264 h2 {
+  color: #fff;
+}
+.c264 h2:after {
+  background: #5ab4fe;
+}
+.c265 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c266 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media(max-width : 960px) {
+  .c266 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media(max-width : 600px) {
+  .c266 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media(max-width : 360px) {
+  .c266 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.c267 {
+  margin: 75px auto;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+.c267 h2 {
+  text-align: left;
+}
+.c267 h2:after {
+  display: none;
+}
+.c268 {
+  text-align: center;
+}
+.c269 {
+  text-align: left;
+}
+.c270 {
+  text-align: start;
+}
+.c271 {
+  color: #D00;
+}
+.c272 {
+  width: 100vw;
+  margin:  0 calc(50% - 50vw);
+  max-width: 100vw;
+}
+.c273 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+.c273 img {
+  width: 300px;
+  border: 1px solid #eee;
+  max-width: 90%;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+.c273 h3 {
+  color: #333;
+  margin: 0.2em 0 1em;
+  font-size: 1.2em;
+  max-width: 100%;
+}
+.c273 * {
+  text-decoration: none;
+}
+.c229 {
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 30px;
+}
+@media(max-width : 960px) {
+  .c229 {
+    max-width: 700px;
+  }
+}
+.c230 {
+  padding: 16px;
+  text-align: center;
+}
+.c231 {
+  background: #fff;
+}
+@media (max-width:960px) {
+  .c232 {
+    text-align: center;
+  }
+}
+.c233 {
+  max-width: 100%;
+}
+.c234 {
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: product_sansbold, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c234:disabled {
+  opacity: 0.5;
+}
+.c234.link {
+  padding:  10px 20px;
+}
+.c235 {
+  background: #f7f7f7;
+}
+.c236 {
+  color: #666;
+  position: relative;
+  padding-bottom: 2em;
+}
+.c236 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c236 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c236 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c236 ul, .c236 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c236 {
+    font-size: 17px;
+  }
+}
+@media(max-width : 600px) {
+  .c236 {
+    font-size: 15px;
+  }
+  .c236 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c236 {
+    font-size: 13px;
+  }
+}
+.c237 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+}
+.c237 h2 {
+  color: #fff;
+}
+.c237 h2:after {
+  background: #28fef0;
+}
+.c238 {
+  color: #fff;
+  background: #413672;
+}
+.c238 h2 {
+  color: #fff;
+}
+.c238 h2:after {
+  background: #5ab4fe;
+}
+.c239 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c240 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media(max-width : 960px) {
+  .c240 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media(max-width : 600px) {
+  .c240 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media(max-width : 360px) {
+  .c240 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.c241 {
+  margin: 75px auto;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+.c241 h2 {
+  text-align: left;
+}
+.c241 h2:after {
+  display: none;
+}
+.c242 {
+  text-align: center;
+}
+.c243 {
+  text-align: left;
+}
+.c244 {
+  text-align: start;
+}
+.c245 {
+  color: #D00;
+}
+.c246 {
+  width: 100vw;
+  margin:  0 calc(50% - 50vw);
+  max-width: 100vw;
+}
+.c247 {
+  overflow: hidden;
+  text-align: center;
+}
+.c247 > div  {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.c247 > div > div  {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.c247 h3 {
+  color: #000;
+  margin: 0.1em 0;
+  text-align: center;
+}
+.c247 img {
+  width: 70%;
+  max-width: 120px;
+}
+.c247 p {
+  padding: 0 1em;
+  display: block;
+  max-width: 400px;
+  font-weight: 500;
+  margin-left: auto;
+  margin-after: 0.5em;
+  margin-right: auto;
+  margin-before: 0.5em;
+}
+@media(max-width : 960px) {
+  .c247 img {
+    width: 70%;
+    max-width: 80px;
+  }
+  .c247 p {
+    margin-after: 0;
+    margin-before: 0;
+  }
+}
+.c248 {
+  padding: 5%;
+  background-size: cover;
+  background-image: url('/static/images/bg_protocol.jpg'), linear-gradient(90deg,#3e367f,#6c70f1);
+}
+.c249 {
+  width: 80%;
+  max-width: 300px;
+}
+.c250 {
+  padding-bottom: 0;
+}
+.c251 {
+  padding-top: 0;
+}
+.c252 {
+  position: relative;
+  max-width: 1054px;
+}
+@media(max-width : 600px) {
+  .c252 {
+    max-width: 400px;
+  }
+}
+.c252 img {
+  max-width: 100%;
+}
+.c252 svg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+}
+.c254 {
+  text-anchor: middle;
+  font-weight: 600;
+}
+.c301 {
+  margin: 0 auto;
+  padding: 0 15px;
+  z-index: 2;
+  position: relative;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 30px;
+}
+@media(max-width : 960px) {
+  .c301 {
+    max-width: 700px;
+  }
+}
+.c302 {
+  padding: 16px;
+  text-align: center;
+}
+.c303 {
+  background: #fff;
+}
+@media (max-width:960px) {
+  .c304 {
+    text-align: center;
+  }
+}
+.c305 {
+  max-width: 100%;
+}
+.c306 {
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: product_sansbold, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c306:disabled {
+  opacity: 0.5;
+}
+.c306.link {
+  padding:  10px 20px;
+}
+.c307 {
+  background: #f7f7f7;
+}
+.c308 {
+  color: #666;
+  position: relative;
+  padding-bottom: 2em;
+}
+.c308 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c308 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c308 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c308 ul, .c308 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c308 {
+    font-size: 17px;
+  }
+}
+@media(max-width : 600px) {
+  .c308 {
+    font-size: 15px;
+  }
+  .c308 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c308 {
+    font-size: 13px;
+  }
+}
+.c309 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #ba4eff 0%,#9133ff 100%);
+}
+.c309 h2 {
+  color: #fff;
+}
+.c309 h2:after {
+  background: #28fef0;
+}
+.c310 {
+  color: #fff;
+  background: #413672;
+}
+.c310 h2 {
+  color: #fff;
+}
+.c310 h2:after {
+  background: #5ab4fe;
+}
+.c311 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c312 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media(max-width : 960px) {
+  .c312 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media(max-width : 600px) {
+  .c312 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media(max-width : 360px) {
+  .c312 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.c313 {
+  margin: 75px auto;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+.c313 h2 {
+  text-align: left;
+}
+.c313 h2:after {
+  display: none;
+}
+.c314 {
+  text-align: center;
+}
+.c315 {
+  text-align: left;
+}
+.c316 {
+  text-align: start;
+}
+.c317 {
+  color: #D00;
+}
+.c318 {
+  width: 100vw;
+  margin:  0 calc(50% - 50vw);
+  max-width: 100vw;
+}
+@keyframes zoomfade {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(3);
+  }
+}
+.c319 {
+  position: relative;
+  max-width: calc(100vw - 100px);
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+}
+.c319 .time-line-box {
+  width: 50%;
+  color: #777;
+  margin: 0 -30px;
+  padding: 20px 30px;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.c319 .time-line-box.empty {
+  visibility: hidden;
+}
+.c319 .top {
+  display: flex;
+}
+.c319 .bar {
+  width: 106%;
+  margin: 30px -3%;
+  height: 2px;
+  position: relative;
+  background: linear-gradient(to right, rgba(40, 254, 240, 1) 0%, rgba(40, 254, 240, 1) 50%, rgba(40, 254, 240, 0.8) 100%);
+}
+.c319 .bottom {
+  display: flex;
+}
+.c319 .description {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+.c319 .date {
+  color: #333;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+  text-transform: uppercase;
+}
+@media(max-width : 960px) {
+  .c319 {
+    max-width: none;
+  }
+  .c319 .top {
+    flex-direction: column;
+  }
+  .c319 .bottom {
+    display: none;
+  }
+  .c319 .bar {
+    top: 10px;
+    left: -1px;
+    width: 2px;
+    bottom: 10px;
+    height: auto;
+    margin: 0;
+    position: absolute;
+  }
+  .c319 .time-line-box {
+    width: auto;
+    margin: 1em;
+    margin-right: 0;
+  }
+  .c319 .time-line-box.empty {
+    visibility: visible;
+  }
+  .c319 .time-line-box .dot {
+    top: 21px !important;
+    left: -24px !important;
+    bottom: auto !important;
+  }
+  .c319 .time-line-box .pointer {
+    top: 17px !important;
+    left: -9px !important;
+    bottom: auto !important;
+  }
+}
+@media(max-width : 600px) {
+  .c319 .bar {
+    left: -4px;
+  }
+}
+.c319 .description li ~ li {
+  margin-top: 0.8em;
+}
+.c319 .bottom .dot {
+  top: -37px;
+}
+.c319 .bottom .pointer {
+  top: -6px;
+}
+.c319 .top .dot {
+  bottom: -37px;
+}
+.c319 .top .pointer {
+  bottom: -6px;
+}
+.c319 .time-line-box .dot {
+  left: 28px;
+  width: 12px;
+  height: 12px;
+  z-index: 2;
+  position: absolute;
+  background: #28FEF0;
+  border-radius: 50%;
+}
+.c319 .time-line-box .pointer {
+  left: 24px;
+  width: 20px;
+  bottom: -6px;
+  height: 20px;
+  position: absolute;
+  transform: rotate(45deg);
+  background: #fff;
+  border-radius: 8px;
+}
+.c274 {
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 30px;
+}
+@media(max-width : 960px) {
+  .c274 {
+    max-width: 700px;
+  }
+}
+.c275 {
+  padding: 16px;
+  text-align: center;
+}
+.c276 {
+  background: #fff;
+}
+@media (max-width:960px) {
+  .c277 {
+    text-align: center;
+  }
+}
+.c278 {
+  max-width: 100%;
+}
+.c279 {
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: product_sansbold, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c279:disabled {
+  opacity: 0.5;
+}
+.c279.link {
+  padding:  10px 20px;
+}
+.c280 {
+  background: #f7f7f7;
+}
+.c281 {
+  color: #666;
+  position: relative;
+  padding-bottom: 2em;
+}
+.c281 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c281 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c281 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c281 ul, .c281 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c281 {
+    font-size: 17px;
+  }
+}
+@media(max-width : 600px) {
+  .c281 {
+    font-size: 15px;
+  }
+  .c281 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c281 {
+    font-size: 13px;
+  }
+}
+.c282 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+}
+.c282 h2 {
+  color: #fff;
+}
+.c282 h2:after {
+  background: #28fef0;
+}
+.c283 {
+  color: #fff;
+  background: #413672;
+}
+.c283 h2 {
+  color: #fff;
+}
+.c283 h2:after {
+  background: #5ab4fe;
+}
+.c284 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c285 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media(max-width : 960px) {
+  .c285 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media(max-width : 600px) {
+  .c285 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media(max-width : 360px) {
+  .c285 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.c286 {
+  margin: 75px auto;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+.c286 h2 {
+  text-align: left;
+}
+.c286 h2:after {
+  display: none;
+}
+.c287 {
+  text-align: center;
+}
+.c288 {
+  text-align: left;
+}
+.c289 {
+  text-align: start;
+}
+.c290 {
+  color: #D00;
+}
+.c291 {
+  width: 100vw;
+  margin:  0 calc(50% - 50vw);
+  max-width: 100vw;
+}
+.c292 {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media(max-width : 600px) {
+  .c292 {
+    justify-content: space-between;
+  }
+}
+.c293 {
+  width: 28%;
+  margin: 1em 2.6%;
+  position: relative;
+  background: #fff;
+  box-shadow: 5px 5px 25px rgba(0,0,0,0.15);
+  border-radius: 10px;
+  pointer-events: none;
+}
+@media(max-width : 600px) {
+  .c293 {
+    width: 47%;
+    margin: 1em 0;
+  }
+}
+@media(max-width : 500px) {
+  .c293 {
+    font-size: 0.8em;
+  }
+}
+@media(min-width : 500px) {
+  .c293:hover .c294 {
+    filter: blur(5px);
+  }
+}
+@media(min-width : 500px) {
+  .c293:hover .c295 {
+    opacity: 1;
+    transform: scale(1) translate(-50% , -50%);
+    pointer-events: all;
+  }
+}
+.c294 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-size: 0.7em;
+  transition: none;
+  padding-bottom: 1em;
+}
+.c294 img {
+  width: 60%;
+  margin: 20% auto 0;
+  display: block;
+  max-width: 200px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  border-radius: 50%;
+  pointer-events: all;
+}
+.c294 .c296 {
+  color: #333;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: 600;
+}
+.c294 .c297 {
+  color: #333;
+  padding: 0 0.5em;
+  font-size: 1.1em;
+  text-align: center;
+}
+@media(max-width : 500px) {
+  .c294:focus ~ .c295 {
+    opacity: 1;
+    transform: scale(1) translate(-50% , -50%);
+    pointer-events: all;
+  }
+}
+@media(max-width : 500px) {
+  .c294:focus {
+    filter: blur(5px);
+  }
+}
+.c295 {
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  padding: 1em;
+  position: absolute;
+  transform: scale(0.7) translate(-50%,-50%);
+  font-size: 0.9em;
+  min-width: 230px;
+  background: rgba(150, 70, 203, 0.77);
+  text-align: center;
+  transition: opacity 0.25s,transform 0.25s;
+  min-height: 100%;
+  border-radius: 7px;
+  transform-origin: 0% 0%;
+}
+@media(max-width : 960px) {
+  .c295 {
+    max-width: calc(100% - 20px);
+    min-width: 210px;
+  }
+}
+@media(max-width : 600px) {
+  .c295 {
+    max-width: calc(100% - 20px);
+    min-width: 130px;
+  }
+}
+.c296 {
+  margin: 0.2em 0;
+  font-size: 1.4em;
+  font-style: bold;
+}
+.c297 {
+  opacity: 0.8;
+  font-size: 0.8em;
+}
+.c300 {
+  padding: 1em 0 0;
+  font-size: 0.9em;
+}
+@media(max-width : 500px) {
+  .c300 {
+    padding-top: 0.5em;
+  }
+}
+.c320 {
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 30px;
+}
+@media(max-width : 960px) {
+  .c320 {
+    max-width: 700px;
+  }
+}
+.c321 {
+  padding: 16px;
+  text-align: center;
+}
+.c322 {
+  background: #fff;
+}
+@media (max-width:960px) {
+  .c323 {
+    text-align: center;
+  }
+}
+.c324 {
+  max-width: 100%;
+}
+.c325 {
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: product_sansbold, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c325:disabled {
+  opacity: 0.5;
+}
+.c325.link {
+  padding:  10px 20px;
+}
+.c326 {
+  background-image:  linear-gradient( 135deg, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.2) 100%), url('/static/images/noise.png');
+  background-color: #fff;
+}
+.c327 {
+  color: #666;
+  position: relative;
+  padding-bottom: 2em;
+}
+.c327 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c327 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c327 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c327 ul, .c327 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c327 {
+    font-size: 17px;
+  }
+}
+@media(max-width : 600px) {
+  .c327 {
+    font-size: 15px;
+  }
+  .c327 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c327 {
+    font-size: 13px;
+  }
+}
+.c328 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+}
+.c328 h2 {
+  color: #fff;
+}
+.c328 h2:after {
+  background: #28fef0;
+}
+.c329 {
+  color: #fff;
+  background: #413672;
+}
+.c329 h2 {
+  color: #fff;
+}
+.c329 h2:after {
+  background: #5ab4fe;
+}
+.c330 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c331 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media(max-width : 960px) {
+  .c331 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media(max-width : 600px) {
+  .c331 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media(max-width : 360px) {
+  .c331 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.c332 {
+  margin: 75px auto;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+.c332 h2 {
+  text-align: left;
+}
+.c332 h2:after {
+  display: none;
+}
+.c333 {
+  text-align: center;
+}
+.c334 {
+  text-align: left;
+}
+.c335 {
+  text-align: start;
+}
+.c336 {
+  color: #D00;
+}
+.c337 {
+  width: 100vw;
+  margin:  0 calc(50% - 50vw);
+  max-width: 100vw;
+}
+.c338 {
+  min-height: 200px;
+  margin-top: 40px;
+  background: #eee;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, .13);
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.c338 .navButton {
+  filter: drop-shadow(0px 3px 2px #888);
+}
+.c338 .navButton span {
+  color: rgba(0,0,0,0.3);
+  border-color: rgba(0,0,0,0.3);
+}
+@media(max-width : 600px) {
+  .c338 {
+    padding-top: 20px;
+  }
+}
+.c339 {
+  margin: 40px;
+  display: flex;
+  padding: 40px;
+  font-size: 0.9em;
+  flex-wrap: wrap;
+}
+@media(max-width : 600px) {
+  .c339 {
+    margin: 70px 0 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    align-items: center;
+    padding-top: 0;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: #fff;
+  }
+}
+.c339:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.c340 {
+  flex: 1;
+  color: #444;
+  margin: 0 20px;
+  font-style: italic;
+}
+@media(max-width : 600px) {
+  .c340 {
+    margin: 0;
+  }
+}
+.c341 {
+  color: #888;
+  width: 100%;
+  font-size:  0.9em;
+  text-align: right;
+  font-style: italic;
+  align-self: flex-end;
+  padding-top: 1.4em;
+}
+.c342 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+@media(max-width : 600px) {
+  .c342 {
+    width: 75px;
+    height: 75px;
+    margin-top: -40px;
+  }
+}
+.c343 {
+  display: none;
+}
+.c344 {
+  align-items: flex-start;
+}
+.c344 > * {
+  max-height: 0;
+}
+.c344 > .active {
+  max-height: none;
+}
+.c345 {
+  flex: 1;
+}
+.c346 {
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 30px;
+}
+@media(max-width : 960px) {
+  .c346 {
+    max-width: 700px;
+  }
+}
+.c347 {
+  padding: 16px;
+  text-align: center;
+}
+.c348 {
+  background: #fff;
+}
+@media (max-width:960px) {
+  .c349 {
+    text-align: center;
+  }
+}
+.c350 {
+  max-width: 100%;
+}
+.c351 {
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: product_sansbold, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c351:disabled {
+  opacity: 0.5;
+}
+.c351.link {
+  padding:  10px 20px;
+}
+.c352 {
+  background: #f7f7f7;
+}
+.c353 {
+  color: #666;
+  position: relative;
+  padding-bottom: 2em;
+}
+.c353 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c353 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c353 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c353 ul, .c353 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c353 {
+    font-size: 17px;
+  }
+}
+@media(max-width : 600px) {
+  .c353 {
+    font-size: 15px;
+  }
+  .c353 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c353 {
+    font-size: 13px;
+  }
+}
+.c354 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+}
+.c354 h2 {
+  color: #fff;
+}
+.c354 h2:after {
+  background: #28fef0;
+}
+.c355 {
+  color: #fff;
+  background: #413672;
+}
+.c355 h2 {
+  color: #fff;
+}
+.c355 h2:after {
+  background: #5ab4fe;
+}
+.c356 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c357 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media(max-width : 960px) {
+  .c357 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media(max-width : 600px) {
+  .c357 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media(max-width : 360px) {
+  .c357 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.c358 {
+  margin: 75px auto;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+.c358 h2 {
+  text-align: left;
+}
+.c358 h2:after {
+  display: none;
+}
+.c359 {
+  text-align: center;
+}
+.c360 {
+  text-align: left;
+}
+.c361 {
+  text-align: start;
+}
+.c362 {
+  color: #D00;
+}
+.c363 {
+  width: 100vw;
+  margin:  0 calc(50% - 50vw);
+  max-width: 100vw;
+}
+.c364 {
+  background-size: cover;
+  background-image: url('/static/images/uplive-section/liveitupbg.jpg'), linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+  background-position: bottom;
+}
+.c364 .storelink img {
+  max-width: 250px;
+  border-radius: 15px;
+}
+.c364 .storelink a {
+  margin: 1em 2em;
+}
+@media(max-width : 960px) {
+  .c364 .storelink a {
+    margin: 2% 5%;
+  }
+}
+@media(max-width : 960px) {
+  .c364 .storelink img {
+    width: 33%;
+    border-radius: 2vw;
+  }
+}
+.c365 {
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 30px;
+}
+@media(max-width : 960px) {
+  .c365 {
+    max-width: 700px;
+  }
+}
+.c366 {
+  padding: 16px;
+  text-align: center;
+}
+.c367 {
+  box-shadow: none !important;
+}
+.c367 ~ * {
+  box-shadow: none !important;
+}
+@media (max-width:960px) {
+  .c368 {
+    text-align: center;
+  }
+}
+.c369 {
+  width: 70%;
+  margin: 20px auto;
+  display: block;
+  max-width: 180px;
+}
+.c370 {
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: product_sansbold, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c370:disabled {
+  opacity: 0.5;
+}
+.c370.link {
+  padding:  10px 20px;
+}
+.c371 {
+  background: #f7f7f7;
+}
+.c372 {
+  color: #666;
+  position: relative;
+  padding-bottom: 2em;
+}
+.c372 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c372 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c372 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c372 ul, .c372 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c372 {
+    font-size: 17px;
+  }
+}
+@media(max-width : 600px) {
+  .c372 {
+    font-size: 15px;
+  }
+  .c372 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c372 {
+    font-size: 13px;
+  }
+}
+.c373 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+}
+.c373 h2 {
+  color: #fff;
+}
+.c373 h2:after {
+  background: #28fef0;
+}
+.c374 {
+  color: #fff;
+  background: #413672;
+}
+.c374 h2 {
+  color: #fff;
+}
+.c374 h2:after {
+  background: #5ab4fe;
+}
+.c375 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c376 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media(max-width : 960px) {
+  .c376 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media(max-width : 600px) {
+  .c376 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media(max-width : 360px) {
+  .c376 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.c377 {
+  margin: 75px auto;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+.c377 h2 {
+  text-align: left;
+}
+.c377 h2:after {
+  display: none;
+}
+.c378 {
+  text-align: center;
+}
+.c379 {
+  text-align: left;
+}
+.c380 {
+  text-align: start;
+}
+.c381 {
+  color: #D00;
+}
+.c382 {
+  width: 100vw;
+  margin:  0 calc(50% - 50vw);
+  max-width: 100vw;
+}
+.c383 {
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 30px;
+}
+@media(max-width : 960px) {
+  .c383 {
+    max-width: 700px;
+  }
+}
+.c384 {
+  padding: 16px;
+  text-align: center;
+}
+.c385 {
+  background: #fff;
+}
+@media (max-width:960px) {
+  .c386 {
+    text-align: center;
+  }
+}
+.c387 {
+  width: 70%;
+  margin: 20px auto;
+  display: block;
+  max-width: 180px;
+}
+.c388 {
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: product_sansbold, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c388:disabled {
+  opacity: 0.5;
+}
+.c388.link {
+  padding:  10px 20px;
+}
+.c389 {
+  background: #f7f7f7;
+}
+.c390 {
+  color: #666;
+  position: relative;
+  padding-bottom: 2em;
+}
+.c390 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c390 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c390 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c390 ul, .c390 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c390 {
+    font-size: 17px;
+  }
+}
+@media(max-width : 600px) {
+  .c390 {
+    font-size: 15px;
+  }
+  .c390 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c390 {
+    font-size: 13px;
+  }
+}
+.c391 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+}
+.c391 h2 {
+  color: #fff;
+}
+.c391 h2:after {
+  background: #28fef0;
+}
+.c392 {
+  color: #fff;
+  background: #413672;
+}
+.c392 h2 {
+  color: #fff;
+}
+.c392 h2:after {
+  background: #5ab4fe;
+}
+.c393 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c394 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media(max-width : 960px) {
+  .c394 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media(max-width : 600px) {
+  .c394 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media(max-width : 360px) {
+  .c394 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.c395 {
+  margin: 75px auto;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+.c395 h2 {
+  text-align: left;
+}
+.c395 h2:after {
+  display: none;
+}
+.c396 {
+  text-align: center;
+}
+.c397 {
+  text-align: left;
+}
+.c398 {
+  text-align: start;
+}
+.c399 {
+  color: #D00;
+}
+.c400 {
+  width: 100vw;
+  margin:  0 calc(50% - 50vw);
+  max-width: 100vw;
+}
+.c401 {
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-grow: 1;
+  max-width: 1280px;
+  padding-top: 30px;
+}
+@media(max-width : 960px) {
+  .c401 {
+    max-width: 700px;
+  }
+}
+.c402 {
+  padding: 16px;
+  text-align: center;
+}
+.c403 {
+  background: #fff;
+}
+@media (max-width:960px) {
+  .c404 {
+    text-align: center;
+  }
+}
+.c405 {
+  max-width: 100%;
+}
+.c406 {
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: product_sansbold, sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: none;
+  text-decoration: none;
+  background-image: linear-gradient( 90deg, rgb(58,162,252) 0%, rgb(77,213,249) 100%);
+}
+.c406:disabled {
+  opacity: 0.5;
+}
+.c406.link {
+  padding:  10px 20px;
+}
+.c407 {
+  background: #f7f7f7;
+}
+.c408 {
+  color: #666;
+  position: relative;
+  padding-bottom: 2em;
+}
+.c408 h2 {
+  color: #444;
+  position: relative;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.c408 h2:after {
+  left: 0;
+  bottom: -0.2em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #8a3beb;
+}
+.c408 select {
+  width: calc(100% - 32px) !important;
+  max-width: calc(100% - 32px) !important;
+}
+.c408 ul, .c408 ol {
+  padding-start: 6.67%;
+  -webkit-padding-start: 6.67%;
+}
+@media(max-width : 960px) {
+  .c408 {
+    font-size: 17px;
+  }
+}
+@media(max-width : 600px) {
+  .c408 {
+    font-size: 15px;
+  }
+  .c408 h2 {
+    font-size: 1.5em;
+  }
+}
+@media(max-width : 360px) {
+  .c408 {
+    font-size: 13px;
+  }
+}
+.c409 {
+  color: #fff;
+  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+}
+.c409 h2 {
+  color: #fff;
+}
+.c409 h2:after {
+  background: #28fef0;
+}
+.c410 {
+  color: #fff;
+  background: #413672;
+}
+.c410 h2 {
+  color: #fff;
+}
+.c410 h2:after {
+  background: #5ab4fe;
+}
+.c411 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c412 {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+@media(max-width : 960px) {
+  .c412 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media(max-width : 600px) {
+  .c412 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media(max-width : 360px) {
+  .c412 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.c413 {
+  margin: 75px auto;
+  max-width: 800px;
+  line-height: 1.5em;
+}
+.c413 h2 {
+  text-align: left;
+}
+.c413 h2:after {
+  display: none;
+}
+.c414 {
+  text-align: center;
+}
+.c415 {
+  text-align: left;
+}
+.c416 {
+  text-align: start;
+}
+.c417 {
+  color: #D00;
+}
+.c418 {
+  width: 100vw;
+  margin:  0 calc(50% - 50vw);
+  max-width: 100vw;
+}
+.c419 {
+  padding: 0 0 0 30px;
+  font-size: 0.8em;
+}
+@media(max-width : 600px) {
+  .c419 {
+    padding: 0 0 0 4vw;
+  }
+}
+.c420 {
+  display: flex;
+  align-items: center;
+}
+.c420 > * {
+  margin: 15px 0;
+}
+.c420 > img {
+  width: 130px;
+  height: 130px;
+  max-width: 20vw;
+  max-height: 20vw;
+  object-fit: contain;
+}
+.c420 > div {
+  flex: 1;
+}
+@media(max-width : 600px) {
+  .c420 > * {
+    margin: 5px 0;
+  }
+}</style><meta charSet="utf-8"/><meta name="viewport" content="user-scalable=0, initial-scale=1, minimum-scale=1, width=device-width, height=device-height"/><title>GIFTO - Decentralized Gifting Platform for Content Creators</title><meta name="google-site-verification" content="OeayL8sfA-XdFi60oJPKjXg3Pv6nncUU7lIHdwe9f_s"/><meta name="description" content="A virtual gifting platform built on smart contracts on the Ethereum blockchain. AIG&#x27;s gifting generated US$100+ million in 2017. Sign up for GIFTO Tokens today!"/><meta name="keywords" content="GIFTO, cryptocurrency, ICO, gifting platform, decentralized, blockchain, ethereum, real-time"/><meta name="yandex-verification" content="fe09784754cb3b4f"/><meta name="msvalidate.01" content="71704AA42938CA4909F97B35F12C6D5E"/><link rel="manifest" href="/static/manifest.json"/><link rel="canonical" href="https://gifto.io"/><meta name="theme-color" content="#9c27b0"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Product+Sans:400,500,600" media="none" data-async="true"/><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="none" data-async="true"/><style global="1">
+*{
+	/* font-family: "Product Sans", "Arial"; */
+    font-family: "Arial";
+    font-style: inherit;
+    font-variant: inherit;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400;
+}
+p {
+	font-weight: 400;
+}
+blockquote {
+	font-weight: 400;
+}
+pre {
+	/* font-family: "Product Sans", "Arial"; */
+    font-family: "Arial";
+	font-weight: 400;
+}
+
+html{
+	background: #fff;
+	font-size: 18px;
+}
+body{
+	background: #fff;
+	font-size: 18px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {-moz-appearance: textfield;}
+/*
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/static/fonts/icons.woff2') format('woff2');
+}
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+} */
+</style><script>
+
+
+try{
+  var path = location.pathname;
+  var currentLang = "en";
+  var targetLang = localStorage.getItem('lang') || 'en';
+
+  if(currentLang=='en' && targetLang != 'en'){
+    location.pathname = "/" + targetLang + location.pathname;
+  }else if(targetLang == 'en' && currentLang != 'en'){
+    location.pathname = location.pathname.replace("/" + currentLang,"")
+  }else if(currentLang != targetLang){
+    location.pathname = location.pathname.replace("/" + currentLang,"/" + targetLang)
+  }
+}catch(r){};
+
+
+            var allLink = document.head.querySelectorAll("link[data-async]");
+            for(var i in allLink){
+              allLink[i].onload = function(){this.media="all"}
+            }
+          </script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109143060-1"></script><script>
+
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-109143060-1');
+
+            if(!!window.MSInputMethodContext && !!document.documentMode){
+              var script = document.createElement('script');
+              script.src = "https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js";
+              document.head.appendChild(script);
+            };
+
+          </script></head><body><div><div id="__next"><div data-reactroot=""><div class="c19"><div id="header" class="c39 headerSection    c38"><div class="c20"><div class="c42"><div class="c45"><a href="/" title="GIFTO Home Page" class="c43"><img style="height:100%" src="/static/images/gifto/version_2/logo_1.svg" alt="GIFTO logo"/><span>GIFTO</span></a><span class="material-icons c55 c46" aria-hidden="true">menu</span></div><nav class="c44"><a href="/#our-mission-section">About</a><a href="/#roadmap-section">Roadmap</a><a href="/#team-section">Team</a><a href="/faq">FAQ</a><a href="/#press-section">Press</a><a href="/blog">Blog</a><button tabindex="0" class="c77 c62 c25  link  c47" type="button" role="button" title="Download GIFTO Whitepaper"><span class="c64">Whitepaper</span><span class="c79"></span></button></nav></div></div></div><div class="c87 c88"><div class="c86" style="z-index:100;position:relative"><br/><div class="c120 c142 c136"><div class="c121 c156 c169 c179 c89"><h1 class="uplive">GIFTO - Decentralized Universal Gifting Protocol</h1><div class="c91"><div>By Uplive, highest revenue streaming app to launch token<!-- --> - <b>$100M USD in 2017<!-- --> </b></div><div>Massive transactions<!-- --> - <b>25M virtual gifts per month <!-- --> </b></div><div>Largest existing users to hold tokens<!-- --> - <b>20M users<!-- --> </b></div><div>Strong team &amp; prestigious advisors</div><div>Product begin testing in Q1 2018</div></div></div><div class="c121 c156 c169 c173 c90"><h2 class="uplive">News</h2><a class="c92 newitems" target="_blank" rel="noopener" href="http://theicodaily.com/crypto-exchange-binance-creates-new-partnership-with-uplive-creator-of-gifto/"><div>CRYPTO EXCHANGE BINANCE CREATES NEW PARTNERSHIP WITH UPLIVE, CREATOR OF GIFTO	</div></a><a class="c92 newitems" target="_blank" rel="noopener" href="https://www.crowdfundinsider.com/2017/12/125907-wow-gifto-token-sale-sells-60-seconds/"><div>Wow!: Gift Blockchain Platform GIFTO’s Token Sale Sells Out in 60 Seconds</div></a><a class="c92 newitems" target="_blank" rel="noopener" href="https://www.businesswire.com/news/home/20171228005141/en/World%E2%80%99s-Leading-Crypto-Exchange-Binance-Partners-Uplive"><div>World’s Leading Crypto Exchange Binance Partners With Uplive - Asia’s Premier Live Video Platform</div></a><a class="c92 newitems" target="_blank" rel="noopener" href="https://www.newsbtc.com/press-releases/gifto-tron-partner-monetize-decentralized-content/"><div>Gifto and TRON partner to monetize decentralized content</div></a></div><div class="c121 c156 c169 c182 c89"><br/><br/><br/></div></div></div><canvas style="position:absolute;left:0;right:0;top:0;bottom:0;z-index:0;pointer-events:none"></canvas></div><div id="our-mission-section" class="c216 c211"><div class="c209" style="position:relative"><h2>What is GIFTO?</h2><p>Implement Uplive&#x27;s awesome virtual gifts to all platforms</p><br/><div class="c120 c127 c136 c227"><div class="c121 c148 c161 c173"><img src="/static/images/home-about/uplive-awe-gift.jpg" class="bowshadow"/><p>Uplive&#x27;s awesome gifts </p></div><div class="c121 c148 c161 c173"><p> Decentralized </p><img src="/static/images/home-about/narrow.png" style="width:65%;margin:0 auto;margin-top:-20%"/><br/><br/></div><div class="c121 c148 c161 c173" style="position:relative"><video playsinline="" muted="" class="bowshadow" loop=""><source src="/static/videos/facebook2.mp4" type="video/mp4"/></video><p> Now for all platforms</p></div></div></div></div><div class="c216 c211 "><div class="c209"><div class="c120 c142"><div class="c121 c156 c169 c176"><p><b>GIFTO Protocol is a decentralized universal gifting protocol for 2.2 billion digital content consumption market.</b></p><p>GIFTO Protocol allows for the creation and exchange of virtual gifts, built on smart contracts and blockchain technology, that in turn will create a decentralized consumer-driven virtual economic system.</p></div><div class="c121 c156 c169 c176"><div class=" c228"><div>GIFTO - Decentralized Universal Gifting Protocol</div></div></div></div><br/></div></div><div class="c236 c231 c235" style="padding-bottom:0"><div class="c229"><div class="c247"><div class="c120 c141"><div class="c121 c156 c169 c174 c187 c200"><img src="/static/images/gifto/icon_gift/icon_customgift.png" alt=" Customized Gifts  "/><h3> Customized Gifts  </h3><p>   Each created gift would have it&#x27;s own unique nature and character, adding the element of fun into the whole gifting process.</p></div><div class="c121 c156 c169 c174 c187 c200"><img src="/static/images/gifto/icon_gift/icon_ecosystem.png" alt=" Building the Gifting Eco-system "/><h3> Building the Gifting Eco-system </h3><p>   Opening up gift creation collaboration to the masses, creating new markets</p></div><div class="c121 c156 c169 c174 c187 c200"><img src="/static/images/gifto/icon_gift/icon_crossplatfom.png" alt="Cross Platform"/><h3>Cross Platform</h3><p> Send and Receive GIFTO Tokens on ANY Social Media Platform</p></div></div><br/></div></div></div><div id="partner-section" class="c262 c257"><div class="c255"><h2>More videos about us</h2><div class="c120 c273"><div class="c121 c156 c163 c174"><a href="https://youtu.be/Ab3gRpPPork" target="_blank" rel="noopener"><img src="/static/images/gamemechannic.jpg" class="c259"/><h3>BTC Media: Andy&#x27;s Interview with BTC on The Emerging Asian Crypto Market</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/96q6NWmuDUk" target="_blank" rel="noopener"><img src="/static/images/whatisgifto.jpg" class="c259"/><h3>What is GIFTO?</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/ND2e5QZxcqw" target="_blank" rel="noopener"><img src="/static/images/whatisgifto.jpg" class="c259"/><h3>Why would users and content creators use GIFTO protocol?</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/KMkL2NAdAMo" target="_blank" rel="noopener"><img src="/static/images/whyblockchain.jpg" class="c259"/><h3>Why Blockchain technology</h3></a></div><div class="c121 c156 c163 c174"><a href="https://www.youtube.com/watch?v=XR2LNPaxp5k" target="_blank" rel="noopener"><img src="/static/images/giftointroduce.jpg" class="c259"/><h3>The Decentralize Universal Gifting Protocol</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/kAwkbKr6uCQ" target="_blank" rel="noopener"><img src="/static/images/teammember.jpg" class="c259"/><h3>Introducing GIFTO team and advisors</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/_Q_BV2fHDQg" target="_blank" rel="noopener"><img src="/static/images/hohurinterview.jpg" class="c259"/><h3>Advisor interviews: Dr. Jin Ho Hur</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/LEfSHaj2Vu4" target="_blank" rel="noopener"><img src="/static/images/sheninterview.jpg" class="c259"/><h3>Advisor interviews: Renqi Shen</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/q1Y8e1agNOw" target="_blank" rel="noopener"><img src="/static/images/loiluu_interview.jpg" class="c259"/><h3>Advisor interviews: Loi Luu</h3></a></div></div></div></div><div class="c236 c231 c250"><div class="c229"><h2>GIFTO Protocol</h2><div class="c239 c252"></div></div></div><div id="team-section" class="c281 c280"><div class="c274"><div class="c120"><div class="c121 c156 c169 c176"><h2>Team</h2><div class="c292"><div class="c293"><div class="c294" tabindex="-1"><img alt=" Andy Tian ,  Group CEO ,  Asia Innovations Group" src="/static/images/home-team/tian.jpg"/><div class="c296"> Andy Tian</div><div class="c297"> Group CEO</div></div><div class="c295"><div class="c296"> Andy Tian</div><div class="c297"> Group CEO</div><div class="c298"> Asia Innovations Group</div><div class="c299"><a href="https://www.linkedin.com/in/andytian/" title=" Andy Tian Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Andy Tian Linkedin Profile"/></a></div><div class="c300"> Successful serial entrepreneur (AIG, his fourth startup).  Previously general manager of Zynga China and while at Google, introduced Android to China. MIT BS &amp; MA degrees in computer science.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Charles Thach ,  Chief Crypto Officer ,  Asia Innovations Group" src="/static/images/home-team/charles_thach.jpg"/><div class="c296"> Charles Thach</div><div class="c297"> Chief Crypto Officer</div></div><div class="c295"><div class="c296"> Charles Thach</div><div class="c297"> Chief Crypto Officer</div><div class="c298"> Asia Innovations Group</div><div class="c299"><a href="https://www.linkedin.com/in/charles-thach-466468/" title=" Charles Thach Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Charles Thach Linkedin Profile"/></a></div><div class="c300"> Seasoned banker (15yrs+). AML/KYC expert. Investor in blockchain companies. Co-authored US patent pending technology to build a massively scalable and transactional cryptocurrency wallet. HEC Paris MBA and Georgetown BS degrees.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" William H. Nguyen, Ph.D. ,  Chief Crypto Architect ,  Asia Innovations Group" src="/static/images/home-team/william.jpg"/><div class="c296"> William H. Nguyen, Ph.D.</div><div class="c297"> Chief Crypto Architect</div></div><div class="c295"><div class="c296"> William H. Nguyen, Ph.D.</div><div class="c297"> Chief Crypto Architect</div><div class="c298"> Asia Innovations Group</div><div class="c299"><a href="https://www.linkedin.com/in/dathnguyen/" title=" William H. Nguyen, Ph.D. Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" William H. Nguyen, Ph.D. Linkedin Profile"/></a></div><div class="c300"> Serial entrepreneur. Educator. Lecturer. Inventor. Co-authored US patent pending technology to build a massively scalable and transactional cryptocurrency wallet. Former Alfred P. Sloan Fellow at Harvard.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Daniel Yeh ,  CEO of Taiwan ,  Asia Innovations Group" src="/static/images/home-team/daniel_yeh.jpg"/><div class="c296"> Daniel Yeh</div><div class="c297"> CEO of Taiwan</div></div><div class="c295"><div class="c296"> Daniel Yeh</div><div class="c297"> CEO of Taiwan</div><div class="c298"> Asia Innovations Group</div><div class="c299"></div><div class="c300"> Serial internet entrepreneur. Award-winning mobile app developer. Inventor. Payment expert. Blockchain enthusiast. National Chengchi University MBA</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Minh Thach , GM of AIG Vietnam ,  Asia Innovations Group" src="/static/images/home-team/minhthach.jpg"/><div class="c296"> Minh Thach</div><div class="c297">GM of AIG Vietnam</div></div><div class="c295"><div class="c296"> Minh Thach</div><div class="c297">GM of AIG Vietnam</div><div class="c298"> Asia Innovations Group</div><div class="c299"><a href="https://www.linkedin.com/in/minhthach/" title=" Minh Thach Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Minh Thach Linkedin Profile"/></a></div><div class="c300"> Experienced leader in mobile app development. Growth hacker. Investor in blockchain companies. Payment expert. CalPoly BS.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Sean Tao ,  Project Lead ,  Asia Innovations Group" src="/static/images/home-team/seantao.jpg"/><div class="c296"> Sean Tao</div><div class="c297"> Project Lead</div></div><div class="c295"><div class="c296"> Sean Tao</div><div class="c297"> Project Lead</div><div class="c298"> Asia Innovations Group</div><div class="c299"><a href="https://www.linkedin.com/in/%E6%AC%A3%E4%BA%9A-%E9%99%B6-68a651145/" title=" Sean Tao Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Sean Tao Linkedin Profile"/></a></div><div class="c300"> Experienced leader in mobile app digital marketing and mobile products development.  Blockchain enthusiast. Peking University B.A.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Dylan Park ,  Head of GIFTO Korea ,  Asia Innovations Group" src="/static/images/home-team/dylanpark.jpg"/><div class="c296"> Dylan Park</div><div class="c297"> Head of GIFTO Korea</div></div><div class="c295"><div class="c296"> Dylan Park</div><div class="c297"> Head of GIFTO Korea</div><div class="c298"> Asia Innovations Group</div><div class="c299"><a href="https://www.linkedin.com/in/dylan-donghwi-park-pmp-50118221/" title=" Dylan Park Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Dylan Park Linkedin Profile"/></a></div><div class="c300"> Top professional in digital entertainment and marketing (Former Executive Director of Leferi Beauty Entertainment, #1 Beauty MCN in Korea). Vast experience in mass consumer product development and marketing. Blockchain enthusiast. Univ. of California, San Diego B.S. in Management Science.</div></div></div></div></div><div class="c121 c156 c169 c176"><h2>Advisors</h2><div class="c292"><div class="c293"><div class="c294" tabindex="-1"><img alt=" Bo Shen ,  General Partner of Fenbushi Capital " src="/static/images/advisors/bo-shen.jpg"/><div class="c296"> Bo Shen</div><div class="c297"> General Partner of Fenbushi Capital</div></div><div class="c295"><div class="c296"> Bo Shen</div><div class="c297"> General Partner of Fenbushi Capital</div><div class="c298"></div><div class="c299"></div><div class="c300"> Co-founded Fenbushi Capital, first venture capital firm that invests exclusively in blockchain-enabled companies. Co-founded Invictus Innovations, the team behind BitShares.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Loi Luu ,  CEO and Co-founder of Kyber Network " src="/static/images/advisors/loi-luu.jpg"/><div class="c296"> Loi Luu</div><div class="c297"> CEO and Co-founder of Kyber Network</div></div><div class="c295"><div class="c296"> Loi Luu</div><div class="c297"> CEO and Co-founder of Kyber Network</div><div class="c298"></div><div class="c299"></div><div class="c300"> Blockchain expert and invited speaker to DevCon, EDCON. Experienced researcher on cryptocurrencies, smart contract security, and distributed consensus algorithms. Ethereum community leader, advocate and champion. Developed Oyente. Co-founded Kyber Network and SmartPool.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Danny Yang ,  CEO Blockseer " src="/static/images/advisors/danny-yang.jpg"/><div class="c296"> Danny Yang</div><div class="c297"> CEO Blockseer</div></div><div class="c295"><div class="c296"> Danny Yang</div><div class="c297"> CEO Blockseer</div><div class="c298"></div><div class="c299"></div><div class="c300"> One of the earliest pioneer in blockchain technology. Artificial intelligence veteran. AML expert. Inventor. Serial entrepreneur: like.com, Maicoin, ScoreData, and Seravia. Harvard BS and Stanford Ph.D. degrees</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Tom Duterme ,  Google, Youtube Executive " src="/static/images/advisors/tom-duterme.jpg"/><div class="c296"> Tom Duterme</div><div class="c297"> Google, Youtube Executive</div></div><div class="c295"><div class="c296"> Tom Duterme</div><div class="c297"> Google, Youtube Executive</div><div class="c298"></div><div class="c299"></div><div class="c300"> Internet properties’ monetization expert. Headed Youtube’s corporate development. Previously a leader at Google. Entrepreneur,Blockchain enthusiast. Macalester College BA and MIT Sloan MBA degrees.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Dr. Jin Ho Hur ,  Co-Founder &amp; General Partner, SEMA Translink " src="/static/images/advisors/jin-ho-hur.jpg"/><div class="c296"> Dr. Jin Ho Hur</div><div class="c297"> Co-Founder &amp; General Partner, SEMA Translink</div></div><div class="c295"><div class="c296"> Dr. Jin Ho Hur</div><div class="c297"> Co-Founder &amp; General Partner, SEMA Translink</div><div class="c298"></div><div class="c299"><a href="https://www.linkedin.com/in/hurjinho/" title=" Dr. Jin Ho Hur Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Dr. Jin Ho Hur Linkedin Profile"/></a></div><div class="c300"> Successful serial entrepreneur with 20+ years experience in internet, mobile and gaming. Co-founded SEMA Translink, a TMT-focused VC, including blockchain, and a nework of funds operating in Palo Alto, Korea and key Asian markets.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Hitters Xu ,  Nebulas &amp; Antshares (NEO) founder " src="/static/images/advisors/hitters-xu.jpg"/><div class="c296"> Hitters Xu</div><div class="c297"> Nebulas &amp; Antshares (NEO) founder</div></div><div class="c295"><div class="c296"> Hitters Xu</div><div class="c297"> Nebulas &amp; Antshares (NEO) founder</div><div class="c298"></div><div class="c299"><a href="https://www.linkedin.com/in/hitters" title=" Hitters Xu Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Hitters Xu Linkedin Profile"/></a></div><div class="c300"> Nebulas &amp; Antshares (NEO) founder, former founding leader of Ant Financial&#x27;s Blockchain Platform. Graduated from Tongji University in Computer Science and Technology. 2013, he has founded BitsClub (the first Blockchain/ Bitcoin innovation community in China). he has organized a series of influential international blockchain summits.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Jae Kim ,  ICO Expert " src="/static/images/advisors/jae-kim.jpg"/><div class="c296"> Jae Kim</div><div class="c297"> ICO Expert</div></div><div class="c295"><div class="c296"> Jae Kim</div><div class="c297"> ICO Expert</div><div class="c298"></div><div class="c299"><a href="https://www.linkedin.com/in/jae-kim-3b8755146" title=" Jae Kim Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Jae Kim Linkedin Profile"/></a></div><div class="c300"> Entrepreneur and blockchain technology evangelist to Korea! President of D com Inc.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Addison Huegel ,  Blockchain and ICO marketing and communications specialist " src="/static/images/advisors/addison.jpg"/><div class="c296"> Addison Huegel</div><div class="c297"> Blockchain and ICO marketing and communications specialist</div></div><div class="c295"><div class="c296"> Addison Huegel</div><div class="c297"> Blockchain and ICO marketing and communications specialist</div><div class="c298"></div><div class="c299"><a href="https://www.linkedin.com/in/addisonhuegel/" title=" Addison Huegel Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Addison Huegel Linkedin Profile"/></a></div><div class="c300"> Launched and promoted many successful blockchain startups and served as a consultant to the Ethereum Foundation throughout 2015.  Currently the Managing Partner and Media Director of Elevator Communications, LLC.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Justin Sun ,  Tron Lab Founder " src="/static/images/advisors/justin-sun.jpg"/><div class="c296"> Justin Sun</div><div class="c297"> Tron Lab Founder</div></div><div class="c295"><div class="c296"> Justin Sun</div><div class="c297"> Tron Lab Founder</div><div class="c298"></div><div class="c299"><a href="https://www.linkedin.com/in/sunyuchen/" title=" Justin Sun Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Justin Sun Linkedin Profile"/></a></div><div class="c300"> Founder of Peiwo APP, 2017 Forbes Asia, 30 under 30, Protégé of Jack Ma, the Founder of Alibaba GroupGlobal Shaper, World Economic Forum, Former Chief Representative in Greater China of Ripple</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Yubo Ruan ,  Founder of 8 Decimal Capital " src="/static/images/advisors/yubo.jpg"/><div class="c296"> Yubo Ruan</div><div class="c297"> Founder of 8 Decimal Capital</div></div><div class="c295"><div class="c296"> Yubo Ruan</div><div class="c297"> Founder of 8 Decimal Capital</div><div class="c298"></div><div class="c299"></div><div class="c300"> Yubo is the founder of 8 Decimal Capital, one of the leading blockchain investment firm in Silicon Valley. Yubo is the co-founder of Skylight Investment, an early stage tech investment firm, backed by Taiyou Fund and New Oriental(NYSE:EDU). Previously, Yubo started two highly successful companies, held 4 national patents and won the 2017 AACYF 30 under 30</div></div></div></div></div></div></div></div><div id="roadmap-section" class="c308 c309"><div class="c301"><h2 style="position:relative">Roadmap</h2><div class="c319"><div class="top"><div class="time-line-box active empty"><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">
+    PHASE 1 </div><div class="description"> Alpha version : Centralized GIFTO Protocol working in external content platforms
+    </div></div></div><div class="time-line-box  "><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">   Q1 2018 - PHASE 2 </div><div class="description"> Beta version : Decentralized GIFTO Protocol in Blockchain working in external environment
+    </div></div></div><div class="time-line-box  empty"><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">   PHASE 3 </div><div class="description"> Commercial version 1 of GIFTO Protocol launch
+    </div></div></div><div class="time-line-box  "><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">   Q3 2018 AND ON GOING </div><div class="description"> Ongoing iterations and expansions
+    </div></div></div></div><div class="bar"></div><div class="bottom"><div class="time-line-box active "><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">
+    PHASE 1 </div><div class="description"> Alpha version : Centralized GIFTO Protocol working in external content platforms
+    </div></div></div><div class="time-line-box  empty"><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">   Q1 2018 - PHASE 2 </div><div class="description"> Beta version : Decentralized GIFTO Protocol in Blockchain working in external environment
+    </div></div></div><div class="time-line-box  "><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">   PHASE 3 </div><div class="description"> Commercial version 1 of GIFTO Protocol launch
+    </div></div></div><div class="time-line-box  empty"><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">   Q3 2018 AND ON GOING </div><div class="description"> Ongoing iterations and expansions
+    </div></div></div></div></div></div><canvas style="position:absolute;left:0;right:0;top:0;bottom:0;z-index:0;pointer-events:none"></canvas></div><div class="c327 c326"><div class="c320"><h2>Testimonials</h2><div class="c339"><img class="c342" src="/static/images/home_testimo/jason_zhao.jpg" alt="Jason Zhao, Partner, KPCB"/><div class="c345"><div class="c340"><p></p><span style="font-size:4em;line-height:0.4em;vertical-align:top;transform:translateY(50%)">“ </span>Asia Innovations Group has been at the forefront of exploring new technology and products.  Andy and Ouyang have a wealth of experience scaling and growing global products.  We are excited about AIG’s future growth and potential.</div><div class="c341">------ <!-- -->Jason Zhao, Partner, KPCB</div></div></div><div class="c339"><img class="c342" src="/static/images/home_testimo/joe-lonsdale.jpg" alt="Joe Lonsdale, founder, 8VC, Palantir"/><div class="c345"><div class="c340"><p></p><span style="font-size:4em;line-height:0.4em;vertical-align:top;transform:translateY(50%)">“ </span> Asia Innovations Group has proven itself as an innovative leader in the mobile interactive entertainment space. The team’s deep background in creating successful mobile social products are key to Uplive’s phenomenal growth, and I believe they will be able to apply new technologies such as blockchain to this exciting market.</div><div class="c341">------ <!-- -->Joe Lonsdale, founder, 8VC, Palantir</div></div></div><div class="c339"><img class="c342" src="/static/images/home_testimo/justin_waldron.jpg" alt="Justin Waldron, co-founder of Zynga (NASDAQ: ZNGA)"/><div class="c345"><div class="c340"><p></p><span style="font-size:4em;line-height:0.4em;vertical-align:top;transform:translateY(50%)">“ </span> AIG has deep experience in scaling virtual currencies to the largest global audiences in the world with both their current products and Andy&#x27;s former experience as the GM of Zynga China. Few people in the world have the experience to build this as well as the AIG’s team, and they have the backing of some of the best investors from Silicon Valley and Asia.</div><div class="c341">------ <!-- -->Justin Waldron, co-founder of Zynga (NASDAQ: ZNGA)</div></div></div><div class="c339"><img class="c342" src="/static/images/home_testimo/fritz_demopoulos.jpg" alt=" Fritz Demouplos, founder of Qunar.com (NASDAQ: QUNR), leading online travel search engine in China"/><div class="c345"><div class="c340"><p></p><span style="font-size:4em;line-height:0.4em;vertical-align:top;transform:translateY(50%)">“ </span> Asia Innovations Group is one of the preeminent live video platforms that has scaled across a range of important global markets, including China, the Middle East and North Asia. The founding team are a new breed of seasoned entrepreneurs willing to exploit new technologies, enter new markets, and build exceptional engineering and product teams. The company has a clear, long runway of success ahead of itself.</div><div class="c341">------ <!-- --> Fritz Demouplos, founder of Qunar.com (NASDAQ: QUNR), leading online travel search engine in China</div></div></div><br/></div></div><div class="c353 c354 c364"><div class="c346"><img class="c350 c356 undefined" src="/static/images/uplive-section/liveitup.png" alt="Live it up" style="width:80%;max-width:700px"/><div class="c356 storelink"><a href="https://itunes.apple.com/app/id1102727568" title="Uplive Apple store Link"><img class="c350" src="/static/images/uplive-section/ios.png" alt="Apple store"/></a><a href="https://play.google.com/store/apps/details?id=com.asiainno.uplive" title="Uplive Google store Link"><img class="c350" src="/static/images/uplive-section/google.png" alt="Google store"/></a></div></div></div><div id="partner-section" class="c372 c367"><div class="c365"><h2>Our Partners</h2><div class="c120 c141 c127"><div class="c121 c150 c161 c173"><a title="Binance Launchpad" href="https://launchpad.binance.com/" target="_blank" rel="noopener"><img class="c369" style="width:110%;max-width:110%;margin:0 -5%" src="/static/images/home-partner/binance-logo.png?r=456" alt="Binance Launchpad Logo"/></a></div><div class="c121 c150 c161 c173"><a title="Taylor Vinters Via" href="https://www.taylorvinters.com/" target="_blank" rel="noopener"><img class="c369" src="/static/images/home-partner/taylor-vinters-via.jpg" alt="Taylor Vinters Via"/></a></div><div class="c121 c150 c161 c173"><a title="Ogier" href="https://www.ogier.com/" target="_blank" rel="noopener"><img class="c369" src="/static/images/home-partner/ogier-logo.png" alt="Ogier"/></a></div><div class="c121 c150 c161 c173"><a title="KKCoin" href="https://www.kkcoin.com/index" target="_blank" rel="noopener"><img class="c369" style="width:75%;max-width:75%" src="/static/images/home-partner/kkcoin.png" alt="KKCoin Logo"/></a></div><div class="c121 c150 c161 c173"><a title="Orichal" href="https://orichal.io/" target="_blank" rel="noopener"><img class="c369" src="/static/images/home-partner/orichal-logo.png" alt="Orichal"/></a></div><div class="c121 c150 c161 c173"><a title="Kyper Network" href="https://kyber.network/" target="_blank" rel="noopener"><img class="c369" src="/static/images/home-partner/kyper-network-logo.png" alt="Kyper Network Logo"/></a></div><div class="c121 c150 c161 c173"><a title="Preangel" href="http://www.preangelfund.cn/" target="_blank" rel="noopener"><img class="c369" style="width:80%;max-width:80%" src="/static/images/home-partner/preangel-logo.png" alt="Preangel Logo"/></a></div><div class="c121 c150 c161 c173"><a title="NodeCapital" href="http://www.nodecap.com/" target="_blank" rel="noopener"><img class="c369" style="width:80%;max-width:80%" src="/static/images/home-partner/nodecapital-logo.png" alt="NodeCapital Logo"/></a></div><div class="c121 c150 c161 c173"><a title="Black Dot" href="https://www.blackdot.sg/" target="_blank" rel="noopener"><img class="c369" style="width:42%;max-width:42%" src="/static/images/home-partner/blackdot-logo.png" alt="Black Dot Logo"/></a></div><div class="c121 c150 c161 c173"><a title="Nebulas" href="https://nebulas.io/" target="_blank" rel="noopener"><img class="c369" style="width:80%;max-width:80%" src="/static/images/home-partner/nebulaslogo.svg" alt="Nebulas Logo"/></a></div><div class="c121 c150 c161 c173"><a title="Asia Model Festival" href="http://amfoc.org/en/" target="_blank" rel="noopener"><img class="c369" style="width:80%;max-width:80%" src="/static/images/home-partner/amf.jpg" alt="Asia Model Festival Logo"/></a></div></div></div></div><div id="invest-section" class="c390 c385"><div class="c383"><h2>Our Investors</h2><div class="c120 c141 c127 c138"><div class="c121 c150 c161 c173"><a title="Pantera" href="https://panteracapital.com/" target="_blank" rel="noopener"><img class="c387" style="width:80%;max-width:80%;margin:30px auto" src="/static/images/home-partner/pantera-logo.png" alt="Pantera Logo"/></a></div><div class="c121 c150 c161 c173"><a title="BlockAsset" href="https://blockasset.io/" target="_blank" rel="noopener"><img class="c387" style="width:80%;max-width:80%;margin:30px auto" src="/static/images/home-investor/blockasset.png" alt="BlockAsset Logo"/></a></div><div class="c121 c150 c161 c173"><a title="KPCB KLEINER PERKINS CAUFIELD BYERS" href="https://www.kpcb.com/" target="_blank" rel="noopener"><img class="c387" src="/static/images/home-investor/kpcb.png" alt="KPCB KLEINER PERKINS CAUFIELD BYERS"/></a></div><div class="c121 c150 c161 c173"><a title="MSA" href="http://www.magicstoneinvest.com/" target="_blank" rel="noopener"><img class="c387" src="/static/images/home-investor/msa.png" alt="MSA"/></a></div><div class="c121 c150 c161 c173"><a title="Index Ventures" href="https://www.indexventures.com/" target="_blank" rel="noopener"><img class="c387" src="/static/images/home-investor/ventures.png" alt="Index Ventures"/></a></div><div class="c121 c150 c161 c173"><a title="WICKLOW CAPITAL"><img class="c387" src="/static/images/home-investor/wicklow.png" alt="WICKLOW CAPITAL"/></a></div><div class="c121 c150 c161 c173"><a title="WHITE STAR CAPITAL" href="https://whitestarvc.com/" target="_blank" rel="noopener"><img class="c387" style="width:55%;max-width:55%;margin:0 auto" src="/static/images/home-investor/whitestar.png" alt="WHITE STAR CAPITAL"/></a></div><div class="c121 c150 c161 c173"><a title="VENTECH" href="http://www.ventechvc.com/" target="_blank" rel="noopener"><img class="c387" style="width:55%;max-width:55%;margin:0 auto" src="/static/images/home-investor/ventech.png" alt="VENTECH"/></a></div><div class="c121 c150 c161 c173"><a title="Signum Capital" href="http://www.signum.capital/" target="_blank" rel="noopener"><img class="c387" src="/static/images/home-investor/signum-capital-logo.jpg" alt="Signum Capital"/></a></div></div></div></div><div id="press-section" class="c408 c403"><div class="c401"><h2>Press Releases</h2><div class="c120 c141 c127 c138"><div class="c121 c156 c169 c176 c188 c420"><img src="/static/images/home-press/newsbtc.png" alt="scmp"/><div class="c419"><p>Gifto and TRON partner to monetize decentralized content</p><p><a target="_blank" rel="noopener" title="Gifto and TRON partner to monetize decentralized content" href="https://www.newsbtc.com/press-releases/gifto-tron-partner-monetize-decentralized-content/">www.newsbtc.com</a></p></div></div><div class="c121 c156 c169 c176 c188 c420"><img src="/static/images/home-press/businesswire.png" alt="scmp"/><div class="c419"><p>World’s Leading Crypto Exchange Binance Partners With Uplive - Asia’s Premier Live Video Platform</p><p><a target="_blank" rel="noopener" title="World’s Leading Crypto Exchange Binance Partners With Uplive - Asia’s Premier Live Video Platform" href="https://www.businesswire.com/news/home/20171228005141/en/World%E2%80%99s-Leading-Crypto-Exchange-Binance-Partners-Uplive">www.businesswire.com</a></p></div></div><div class="c121 c156 c169 c176 c188 c420"><img src="/static/images/home-press/crowdfundinsider.png" alt="scmp"/><div class="c419"><p>Wow!: Gift Blockchain Platform GIFTO’s Token Sale Sells Out in 60 Seconds</p><p><a target="_blank" rel="noopener" title="Wow!: Gift Blockchain Platform GIFTO’s Token Sale Sells Out in 60 Seconds" href="https://www.crowdfundinsider.com/2017/12/125907-wow-gifto-token-sale-sells-60-seconds/">www.crowdfundinsider.com</a></p></div></div><div class="c121 c156 c169 c176 c188 c420"><img src="/static/images/home-press/theicodaily.png" alt="scmp"/><div class="c419"><p>CRYPTO EXCHANGE BINANCE CREATES NEW PARTNERSHIP WITH UPLIVE, CREATOR OF GIFTO	</p><p><a target="_blank" rel="noopener" title="CRYPTO EXCHANGE BINANCE CREATES NEW PARTNERSHIP WITH UPLIVE, CREATOR OF GIFTO	" href="http://theicodaily.com/crypto-exchange-binance-creates-new-partnership-with-uplive-creator-of-gifto/">theicodaily.com</a></p></div></div><div class="c121 c156 c169 c176 c188 c420"><img src="/static/images/home-press/bitcoin-magazine.png" alt="scmp"/><div class="c419"><p>Gifto’s Vision for the Virtual Gifting Economy</p><p><a target="_blank" rel="noopener" title="Gifto’s Vision for the Virtual Gifting Economy" href="https://bitcoinmagazine.com/articles/giftos-vision-virtual-gifting-economy/">bitcoinmagazine.com</a></p></div></div><div class="c121 c156 c169 c176 c188 c420"><img src="/static/images/home-press/crowdfundinsider.png" alt="scmp"/><div class="c419"><p>Blockchain “Virtual Gifting Protocol”Gifto</p><p><a target="_blank" rel="noopener" title="Blockchain “Virtual Gifting Protocol”Gifto" href="https://www.crowdfundinsider.com/2017/12/125315-blockchain-virtual-gifting-protocolgifto-launched-former-head-zynga-china-adds-investors-plans-30-million-ico/">www.crowdfundinsider.com</a></p></div></div><div class="c121 c156 c169 c182 c195" style="text-align:center"><button tabindex="0" class="c77 c62" type="button" role="button"><span class="c64">View more <i class="material-icons" style="vertical-align:middle">keyboard_arrow_down</i></span><span class="c79"></span></button></div></div></div></div><div><div class="c445  SocialIconFloat"><input type="checkbox" id="socialtoggle"/><label for="socialtoggle"><i class="material-icons c446"></i></label><a href="https://t.me/GIFTOOfficial" title="GIFTO Telegram chanel" target="_blank" rel="noopener" class="icon-4"><img width="50" src="/static/images/presale/icon-telegram.svg" alt="GIFTO Telegram chanel"/></a><a href="https://medium.com/@GIFTO" title="GIFTO Medium blog" target="_blank" rel="noopener" class="icon-3"><img width="50" src="/static/images/presale/icon-medium.svg" alt="GIFTO Medium blog"/></a><a href="https://twitter.com/GIFTO_io" title="GIFTO Twitter chanel" target="_blank" rel="noopener" class="icon-2"><img width="50" src="/static/images/presale/icon-tw.svg" alt="GIFTO Twitter chanel"/></a><a href="https://open.kakao.com/o/ggLQMiC" title="GIFTO Kakao chanel" target="_blank" rel="noopener" class="icon-1"><img width="50" src="/static/images/presale/icon-kakao.svg" alt="GIFTO Kakao chanel"/></a></div><div class="c428 c429 c442"><div class="c421"><div class="c120"><div class="c121 c156 c163 c174"><a class="c439" href="/#our-mission-section">GIFTO</a><a class="c439" href="/#roadmap-section">Roadmap</a><a class="c439" href="/#team-section">Team</a><a class="c439" href="/faq" title="FAQ">FAQ</a></div><div class="c121 c156 c163 c173"><a class="c439" href="/#press-section">Press</a><a class="c439" href="/blog" title="Blog">Blog</a><div class="c439" title="Download GIFTO Whitepaper" style="cursor:pointer">Whitepaper</div></div><div class="c121 c156 c169 c175"><div class="c431 undefined"><a href="https://t.me/GIFTOOfficial" title="GIFTO Telegram chanel" target="_blank" rel="noopener" class="icon-8"><img width="50" src="/static/images/presale/icon-telegram.svg" alt="GIFTO Telegram chanel"/></a><a href="https://twitter.com/GIFTO_io" title="GIFTO Twitter chanel" target="_blank" rel="noopener" class="icon-6"><img width="50" src="/static/images/presale/icon-tw.svg" alt="GIFTO Twitter chanel"/></a><a href="https://www.reddit.com/user/GIFTO-io/" title="GIFTO Reddit chanel" target="_blank" rel="noopener" class="icon-5"><img width="50" src="/static/images/presale/icon-reddit.svg" alt="GIFTO Reddit chanel"/></a><a href="https://www.facebook.com/gifto.io/" title="GIFTO Facebook chanel" target="_blank" rel="noopener" class="icon-4"><img width="50" src="/static/images/presale/icon-fb.svg" alt="GIFTO Facebook chanel"/></a><a href="https://github.com/GIFTO-io" title="GIFTO Gthub chanel" target="_blank" rel="noopener" class="icon-3"><img width="50" src="/static/images/presale/icon-git.svg" alt="GIFTO Gthub chanel"/></a><a href="https://open.kakao.com/o/ggLQMiC" title="GIFTO Kakao chanel" target="_blank" rel="noopener" class="icon-2"><img width="50" src="/static/images/presale/icon-kakao.svg" alt="GIFTO Kakao chanel"/></a><a href="https://medium.com/@GIFTO" title="GIFTO Medium blog" target="_blank" rel="noopener" class="icon-1"><img width="50" src="/static/images/presale/icon-medium.svg" alt="GIFTO Medium blog"/></a></div></div></div><hr class="c440"/><div class="c441"><span>©2017 GIFTO </span> <a href="/privacypolicy" title="Privacy Policy">Privacy Policy</a> <a href="/termsofuse" title="Term of Use">Term of Use</a> <a href="/termsofsale.pdf" title="Terms of Sale" target="_blank" rel="noopener">Terms of Sale</a></div></div></div></div><div></div></div></div></div><div id="__next-error"></div></div><div><script>
+          __NEXT_DATA__ = {"props":{},"pathname":"/","query":{},"buildId":"5e6c2160-04c9-41b9-bdef-5e766aa61005","buildStats":{"app.js":{"hash":"e573161ac2e341feea756f3892b127fb"}},"assetPrefix":"","nextExport":true,"err":null,"chunks":[]}
+          module={}
+          __NEXT_LOADED_PAGES__ = []
+          __NEXT_LOADED_CHUNKS__ = []
+
+          __NEXT_REGISTER_PAGE = function (route, fn) {
+            __NEXT_LOADED_PAGES__.push({ route: route, fn: fn })
+          }
+
+          __NEXT_REGISTER_CHUNK = function (chunkName, fn) {
+            __NEXT_LOADED_CHUNKS__.push({ chunkName: chunkName, fn: fn })
+          }
+        </script><script async="" id="__NEXT_PAGE__/" type="text/javascript" src="/_next/5e6c2160-04c9-41b9-bdef-5e766aa61005/page/index.js"></script><script async="" id="__NEXT_PAGE__/_error" type="text/javascript" src="/_next/5e6c2160-04c9-41b9-bdef-5e766aa61005/page/_error.js"></script><div></div><script type="text/javascript" src="/_next/e573161ac2e341feea756f3892b127fb/app.js" async=""></script></div></body></html>
