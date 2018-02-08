@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+@media screen and (max-width: 568px) {
+        h1 {
+    font-size:30px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+        p {
+    font-size:20px;
+    }
+}
+
+h5{
+    font-size: 1.4em;
+}
+
+p {
+  text-align: justify;
+}
+
+#particles-js{
+  background-image: linear-gradient( 135deg, #00f260, #0575e6);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.navbar-opacity {
+  opacity: 0.85;
+}
+
+
+.text1 {
+  color: white;
+  font-weight: 700;
+}
+
+.jumbotron {
+  opacity: 0.85;
+  margin: 0;
+  box-shadow: inset 0px 8px 24px -3px rgba(0,0,0,0.1);
+  border-radius: 0;
+}
+
+.c1 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
