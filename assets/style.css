@@ -1,8 +1,7 @@
-<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charSet="utf-8" class="next-head"/><link rel="preload" href="/_next/5e6c2160-04c9-41b9-bdef-5e766aa61005/page/index.js" as="script"/><link rel="preload" href="/_next/5e6c2160-04c9-41b9-bdef-5e766aa61005/page/_error.js" as="script"/><link rel="preload" href="/_next/e573161ac2e341feea756f3892b127fb/app.js" as="script"/><style id="jss-server-side">html {
-  background: #fafafa;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
+
+
+
 
 .particles-js-canvas-el {
   position:absolute;
@@ -15,6 +14,8 @@
   width="1140";
   height="571";
 }
+
+
 
 body {
   margin: 0;
@@ -40,6 +41,11 @@ p {
   text-align: justify;
 } */
 
+#navbar-brand-name {
+  font-weight: 700;
+  font-size: 30px;
+}
+
 #particles-js{
   background-image: linear-gradient( 135deg, #00f260, #0575e6);
 }
@@ -61,10 +67,7 @@ p {
   border-radius: 0;
 }
 
-.c1 {
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
+
 
 .c2 {
   background: #fff;
@@ -76,6 +79,18 @@ p {
 body {
   margin: 0;
 }
+
+
+.description-of-box {
+  margin-top: 2em;
+}
+
+
+
+
+
+
+
 .c79 {
   top: 0;
   left: 0;
@@ -2140,12 +2155,20 @@ body {
   position: relative;
   padding-bottom: 2em;
 }
+
+.c216 .important-direction {
+  color: #1B1D23;
+  font-weight: 600;
+}
+
+
 .c216 h2 {
-  color: #444;
+  color: #1B1D23;
   position: relative;
   font-size: 2.2em;
   font-weight: 600;
 }
+
 .c216 h2:after {
   left: 0;
   bottom: -0.2em;
@@ -2153,8 +2176,13 @@ body {
   position: absolute;
   min-width: 3em;
   min-height: 0.07em;
-  background: #8a3beb;
+  background: #26F43E;
 }
+
+.c216 h2 p {
+  margin-top: 109em;
+}
+
 .c216 select {
   width: calc(100% - 32px) !important;
   max-width: calc(100% - 32px) !important;
@@ -2163,9 +2191,19 @@ body {
   padding-start: 6.67%;
   -webkit-padding-start: 6.67%;
 }
+
+.c216 .important-direction {
+    font-size: 1.2em;
+  }
+
+
+
 @media(max-width : 960px) {
   .c216 {
-    font-size: 17px;
+    font-size: 20px;
+  }
+  .c216 .important-direction {
+    font-size: 28px;
   }
 }
 @media(max-width : 600px) {
@@ -2175,10 +2213,16 @@ body {
   .c216 h2 {
     font-size: 1.5em;
   }
+  .c216 .important-direction {
+    font-size: 25px;
+  }
 }
 @media(max-width : 360px) {
   .c216 {
     font-size: 13px;
+  }
+  .c216 .important-direction {
+    font-size: 35px;
   }
 }
 .c217 {
@@ -2773,6 +2817,9 @@ body {
   width: 100%;
   position: absolute;
 }
+
+
+
 .c254 {
   text-anchor: middle;
   font-weight: 600;
@@ -4400,7 +4447,8 @@ body {
   .c420 > * {
     margin: 5px 0;
   }
-}</style><meta charSet="utf-8"/><meta name="viewport" content="user-scalable=0, initial-scale=1, minimum-scale=1, width=device-width, height=device-height"/><title>GIFTO - Decentralized Gifting Platform for Content Creators</title><meta name="google-site-verification" content="OeayL8sfA-XdFi60oJPKjXg3Pv6nncUU7lIHdwe9f_s"/><meta name="description" content="A virtual gifting platform built on smart contracts on the Ethereum blockchain. AIG&#x27;s gifting generated US$100+ million in 2017. Sign up for GIFTO Tokens today!"/><meta name="keywords" content="GIFTO, cryptocurrency, ICO, gifting platform, decentralized, blockchain, ethereum, real-time"/><meta name="yandex-verification" content="fe09784754cb3b4f"/><meta name="msvalidate.01" content="71704AA42938CA4909F97B35F12C6D5E"/><link rel="manifest" href="/static/manifest.json"/><link rel="canonical" href="https://gifto.io"/><meta name="theme-color" content="#9c27b0"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Product+Sans:400,500,600" media="none" data-async="true"/><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="none" data-async="true"/><style global="1">
+}
+
 *{
 	/* font-family: "Product Sans", "Arial"; */
     font-family: "Arial";
@@ -4440,86 +4488,3 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 input[type=number] {-moz-appearance: textfield;}
-/*
-@font-face {
-	font-family: 'Material Icons';
-	font-style: normal;
-	font-weight: 400;
-	src: url('/static/fonts/icons.woff2') format('woff2');
-}
-
-.material-icons {
-	font-family: 'Material Icons';
-	font-weight: normal;
-	font-style: normal;
-	font-size: 24px;
-	line-height: 1;
-	letter-spacing: normal;
-	text-transform: none;
-	display: inline-block;
-	white-space: nowrap;
-	word-wrap: normal;
-	direction: ltr;
-	-webkit-font-feature-settings: 'liga';
-	-webkit-font-smoothing: antialiased;
-} */
-</style><script>
-
-
-try{
-  var path = location.pathname;
-  var currentLang = "en";
-  var targetLang = localStorage.getItem('lang') || 'en';
-
-  if(currentLang=='en' && targetLang != 'en'){
-    location.pathname = "/" + targetLang + location.pathname;
-  }else if(targetLang == 'en' && currentLang != 'en'){
-    location.pathname = location.pathname.replace("/" + currentLang,"")
-  }else if(currentLang != targetLang){
-    location.pathname = location.pathname.replace("/" + currentLang,"/" + targetLang)
-  }
-}catch(r){};
-
-
-            var allLink = document.head.querySelectorAll("link[data-async]");
-            for(var i in allLink){
-              allLink[i].onload = function(){this.media="all"}
-            }
-          </script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109143060-1"></script><script>
-
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-109143060-1');
-
-            if(!!window.MSInputMethodContext && !!document.documentMode){
-              var script = document.createElement('script');
-              script.src = "https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js";
-              document.head.appendChild(script);
-            };
-
-          </script></head><body><div><div id="__next"><div data-reactroot=""><div class="c19"><div id="header" class="c39 headerSection    c38"><div class="c20"><div class="c42"><div class="c45"><a href="/" title="GIFTO Home Page" class="c43"><img style="height:100%" src="/static/images/gifto/version_2/logo_1.svg" alt="GIFTO logo"/><span>GIFTO</span></a><span class="material-icons c55 c46" aria-hidden="true">menu</span></div><nav class="c44"><a href="/#our-mission-section">About</a><a href="/#roadmap-section">Roadmap</a><a href="/#team-section">Team</a><a href="/faq">FAQ</a><a href="/#press-section">Press</a><a href="/blog">Blog</a><button tabindex="0" class="c77 c62 c25  link  c47" type="button" role="button" title="Download GIFTO Whitepaper"><span class="c64">Whitepaper</span><span class="c79"></span></button></nav></div></div></div><div class="c87 c88"><div class="c86" style="z-index:100;position:relative"><br/><div class="c120 c142 c136"><div class="c121 c156 c169 c179 c89"><h1 class="uplive">GIFTO - Decentralized Universal Gifting Protocol</h1><div class="c91"><div>By Uplive, highest revenue streaming app to launch token<!-- --> - <b>$100M USD in 2017<!-- --> </b></div><div>Massive transactions<!-- --> - <b>25M virtual gifts per month <!-- --> </b></div><div>Largest existing users to hold tokens<!-- --> - <b>20M users<!-- --> </b></div><div>Strong team &amp; prestigious advisors</div><div>Product begin testing in Q1 2018</div></div></div><div class="c121 c156 c169 c173 c90"><h2 class="uplive">News</h2><a class="c92 newitems" target="_blank" rel="noopener" href="http://theicodaily.com/crypto-exchange-binance-creates-new-partnership-with-uplive-creator-of-gifto/"><div>CRYPTO EXCHANGE BINANCE CREATES NEW PARTNERSHIP WITH UPLIVE, CREATOR OF GIFTO	</div></a><a class="c92 newitems" target="_blank" rel="noopener" href="https://www.crowdfundinsider.com/2017/12/125907-wow-gifto-token-sale-sells-60-seconds/"><div>Wow!: Gift Blockchain Platform GIFTO’s Token Sale Sells Out in 60 Seconds</div></a><a class="c92 newitems" target="_blank" rel="noopener" href="https://www.businesswire.com/news/home/20171228005141/en/World%E2%80%99s-Leading-Crypto-Exchange-Binance-Partners-Uplive"><div>World’s Leading Crypto Exchange Binance Partners With Uplive - Asia’s Premier Live Video Platform</div></a><a class="c92 newitems" target="_blank" rel="noopener" href="https://www.newsbtc.com/press-releases/gifto-tron-partner-monetize-decentralized-content/"><div>Gifto and TRON partner to monetize decentralized content</div></a></div><div class="c121 c156 c169 c182 c89"><br/><br/><br/></div></div></div><canvas style="position:absolute;left:0;right:0;top:0;bottom:0;z-index:0;pointer-events:none"></canvas></div><div id="our-mission-section" class="c216 c211"><div class="c209" style="position:relative"><h2>What is GIFTO?</h2><p>Implement Uplive&#x27;s awesome virtual gifts to all platforms</p><br/><div class="c120 c127 c136 c227"><div class="c121 c148 c161 c173"><img src="/static/images/home-about/uplive-awe-gift.jpg" class="bowshadow"/><p>Uplive&#x27;s awesome gifts </p></div><div class="c121 c148 c161 c173"><p> Decentralized </p><img src="/static/images/home-about/narrow.png" style="width:65%;margin:0 auto;margin-top:-20%"/><br/><br/></div><div class="c121 c148 c161 c173" style="position:relative"><video playsinline="" muted="" class="bowshadow" loop=""><source src="/static/videos/facebook2.mp4" type="video/mp4"/></video><p> Now for all platforms</p></div></div></div></div><div class="c216 c211 "><div class="c209"><div class="c120 c142"><div class="c121 c156 c169 c176"><p><b>GIFTO Protocol is a decentralized universal gifting protocol for 2.2 billion digital content consumption market.</b></p><p>GIFTO Protocol allows for the creation and exchange of virtual gifts, built on smart contracts and blockchain technology, that in turn will create a decentralized consumer-driven virtual economic system.</p></div><div class="c121 c156 c169 c176"><div class=" c228"><div>GIFTO - Decentralized Universal Gifting Protocol</div></div></div></div><br/></div></div><div class="c236 c231 c235" style="padding-bottom:0"><div class="c229"><div class="c247"><div class="c120 c141"><div class="c121 c156 c169 c174 c187 c200"><img src="/static/images/gifto/icon_gift/icon_customgift.png" alt=" Customized Gifts  "/><h3> Customized Gifts  </h3><p>   Each created gift would have it&#x27;s own unique nature and character, adding the element of fun into the whole gifting process.</p></div><div class="c121 c156 c169 c174 c187 c200"><img src="/static/images/gifto/icon_gift/icon_ecosystem.png" alt=" Building the Gifting Eco-system "/><h3> Building the Gifting Eco-system </h3><p>   Opening up gift creation collaboration to the masses, creating new markets</p></div><div class="c121 c156 c169 c174 c187 c200"><img src="/static/images/gifto/icon_gift/icon_crossplatfom.png" alt="Cross Platform"/><h3>Cross Platform</h3><p> Send and Receive GIFTO Tokens on ANY Social Media Platform</p></div></div><br/></div></div></div><div id="partner-section" class="c262 c257"><div class="c255"><h2>More videos about us</h2><div class="c120 c273"><div class="c121 c156 c163 c174"><a href="https://youtu.be/Ab3gRpPPork" target="_blank" rel="noopener"><img src="/static/images/gamemechannic.jpg" class="c259"/><h3>BTC Media: Andy&#x27;s Interview with BTC on The Emerging Asian Crypto Market</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/96q6NWmuDUk" target="_blank" rel="noopener"><img src="/static/images/whatisgifto.jpg" class="c259"/><h3>What is GIFTO?</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/ND2e5QZxcqw" target="_blank" rel="noopener"><img src="/static/images/whatisgifto.jpg" class="c259"/><h3>Why would users and content creators use GIFTO protocol?</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/KMkL2NAdAMo" target="_blank" rel="noopener"><img src="/static/images/whyblockchain.jpg" class="c259"/><h3>Why Blockchain technology</h3></a></div><div class="c121 c156 c163 c174"><a href="https://www.youtube.com/watch?v=XR2LNPaxp5k" target="_blank" rel="noopener"><img src="/static/images/giftointroduce.jpg" class="c259"/><h3>The Decentralize Universal Gifting Protocol</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/kAwkbKr6uCQ" target="_blank" rel="noopener"><img src="/static/images/teammember.jpg" class="c259"/><h3>Introducing GIFTO team and advisors</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/_Q_BV2fHDQg" target="_blank" rel="noopener"><img src="/static/images/hohurinterview.jpg" class="c259"/><h3>Advisor interviews: Dr. Jin Ho Hur</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/LEfSHaj2Vu4" target="_blank" rel="noopener"><img src="/static/images/sheninterview.jpg" class="c259"/><h3>Advisor interviews: Renqi Shen</h3></a></div><div class="c121 c156 c163 c174"><a href="https://youtu.be/q1Y8e1agNOw" target="_blank" rel="noopener"><img src="/static/images/loiluu_interview.jpg" class="c259"/><h3>Advisor interviews: Loi Luu</h3></a></div></div></div></div><div class="c236 c231 c250"><div class="c229"><h2>GIFTO Protocol</h2><div class="c239 c252"></div></div></div><div id="team-section" class="c281 c280"><div class="c274"><div class="c120"><div class="c121 c156 c169 c176"><h2>Team</h2><div class="c292"><div class="c293"><div class="c294" tabindex="-1"><img alt=" Andy Tian ,  Group CEO ,  Asia Innovations Group" src="/static/images/home-team/tian.jpg"/><div class="c296"> Andy Tian</div><div class="c297"> Group CEO</div></div><div class="c295"><div class="c296"> Andy Tian</div><div class="c297"> Group CEO</div><div class="c298"> Asia Innovations Group</div><div class="c299"><a href="https://www.linkedin.com/in/andytian/" title=" Andy Tian Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Andy Tian Linkedin Profile"/></a></div><div class="c300"> Successful serial entrepreneur (AIG, his fourth startup).  Previously general manager of Zynga China and while at Google, introduced Android to China. MIT BS &amp; MA degrees in computer science.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Charles Thach ,  Chief Crypto Officer ,  Asia Innovations Group" src="/static/images/home-team/charles_thach.jpg"/><div class="c296"> Charles Thach</div><div class="c297"> Chief Crypto Officer</div></div><div class="c295"><div class="c296"> Charles Thach</div><div class="c297"> Chief Crypto Officer</div><div class="c298"> Asia Innovations Group</div><div class="c299"><a href="https://www.linkedin.com/in/charles-thach-466468/" title=" Charles Thach Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Charles Thach Linkedin Profile"/></a></div><div class="c300"> Seasoned banker (15yrs+). AML/KYC expert. Investor in blockchain companies. Co-authored US patent pending technology to build a massively scalable and transactional cryptocurrency wallet. HEC Paris MBA and Georgetown BS degrees.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" William H. Nguyen, Ph.D. ,  Chief Crypto Architect ,  Asia Innovations Group" src="/static/images/home-team/william.jpg"/><div class="c296"> William H. Nguyen, Ph.D.</div><div class="c297"> Chief Crypto Architect</div></div><div class="c295"><div class="c296"> William H. Nguyen, Ph.D.</div><div class="c297"> Chief Crypto Architect</div><div class="c298"> Asia Innovations Group</div><div class="c299"><a href="https://www.linkedin.com/in/dathnguyen/" title=" William H. Nguyen, Ph.D. Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" William H. Nguyen, Ph.D. Linkedin Profile"/></a></div><div class="c300"> Serial entrepreneur. Educator. Lecturer. Inventor. Co-authored US patent pending technology to build a massively scalable and transactional cryptocurrency wallet. Former Alfred P. Sloan Fellow at Harvard.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Daniel Yeh ,  CEO of Taiwan ,  Asia Innovations Group" src="/static/images/home-team/daniel_yeh.jpg"/><div class="c296"> Daniel Yeh</div><div class="c297"> CEO of Taiwan</div></div><div class="c295"><div class="c296"> Daniel Yeh</div><div class="c297"> CEO of Taiwan</div><div class="c298"> Asia Innovations Group</div><div class="c299"></div><div class="c300"> Serial internet entrepreneur. Award-winning mobile app developer. Inventor. Payment expert. Blockchain enthusiast. National Chengchi University MBA</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Minh Thach , GM of AIG Vietnam ,  Asia Innovations Group" src="/static/images/home-team/minhthach.jpg"/><div class="c296"> Minh Thach</div><div class="c297">GM of AIG Vietnam</div></div><div class="c295"><div class="c296"> Minh Thach</div><div class="c297">GM of AIG Vietnam</div><div class="c298"> Asia Innovations Group</div><div class="c299"><a href="https://www.linkedin.com/in/minhthach/" title=" Minh Thach Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Minh Thach Linkedin Profile"/></a></div><div class="c300"> Experienced leader in mobile app development. Growth hacker. Investor in blockchain companies. Payment expert. CalPoly BS.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Sean Tao ,  Project Lead ,  Asia Innovations Group" src="/static/images/home-team/seantao.jpg"/><div class="c296"> Sean Tao</div><div class="c297"> Project Lead</div></div><div class="c295"><div class="c296"> Sean Tao</div><div class="c297"> Project Lead</div><div class="c298"> Asia Innovations Group</div><div class="c299"><a href="https://www.linkedin.com/in/%E6%AC%A3%E4%BA%9A-%E9%99%B6-68a651145/" title=" Sean Tao Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Sean Tao Linkedin Profile"/></a></div><div class="c300"> Experienced leader in mobile app digital marketing and mobile products development.  Blockchain enthusiast. Peking University B.A.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Dylan Park ,  Head of GIFTO Korea ,  Asia Innovations Group" src="/static/images/home-team/dylanpark.jpg"/><div class="c296"> Dylan Park</div><div class="c297"> Head of GIFTO Korea</div></div><div class="c295"><div class="c296"> Dylan Park</div><div class="c297"> Head of GIFTO Korea</div><div class="c298"> Asia Innovations Group</div><div class="c299"><a href="https://www.linkedin.com/in/dylan-donghwi-park-pmp-50118221/" title=" Dylan Park Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Dylan Park Linkedin Profile"/></a></div><div class="c300"> Top professional in digital entertainment and marketing (Former Executive Director of Leferi Beauty Entertainment, #1 Beauty MCN in Korea). Vast experience in mass consumer product development and marketing. Blockchain enthusiast. Univ. of California, San Diego B.S. in Management Science.</div></div></div></div></div><div class="c121 c156 c169 c176"><h2>Advisors</h2><div class="c292"><div class="c293"><div class="c294" tabindex="-1"><img alt=" Bo Shen ,  General Partner of Fenbushi Capital " src="/static/images/advisors/bo-shen.jpg"/><div class="c296"> Bo Shen</div><div class="c297"> General Partner of Fenbushi Capital</div></div><div class="c295"><div class="c296"> Bo Shen</div><div class="c297"> General Partner of Fenbushi Capital</div><div class="c298"></div><div class="c299"></div><div class="c300"> Co-founded Fenbushi Capital, first venture capital firm that invests exclusively in blockchain-enabled companies. Co-founded Invictus Innovations, the team behind BitShares.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Loi Luu ,  CEO and Co-founder of Kyber Network " src="/static/images/advisors/loi-luu.jpg"/><div class="c296"> Loi Luu</div><div class="c297"> CEO and Co-founder of Kyber Network</div></div><div class="c295"><div class="c296"> Loi Luu</div><div class="c297"> CEO and Co-founder of Kyber Network</div><div class="c298"></div><div class="c299"></div><div class="c300"> Blockchain expert and invited speaker to DevCon, EDCON. Experienced researcher on cryptocurrencies, smart contract security, and distributed consensus algorithms. Ethereum community leader, advocate and champion. Developed Oyente. Co-founded Kyber Network and SmartPool.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Danny Yang ,  CEO Blockseer " src="/static/images/advisors/danny-yang.jpg"/><div class="c296"> Danny Yang</div><div class="c297"> CEO Blockseer</div></div><div class="c295"><div class="c296"> Danny Yang</div><div class="c297"> CEO Blockseer</div><div class="c298"></div><div class="c299"></div><div class="c300"> One of the earliest pioneer in blockchain technology. Artificial intelligence veteran. AML expert. Inventor. Serial entrepreneur: like.com, Maicoin, ScoreData, and Seravia. Harvard BS and Stanford Ph.D. degrees</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Tom Duterme ,  Google, Youtube Executive " src="/static/images/advisors/tom-duterme.jpg"/><div class="c296"> Tom Duterme</div><div class="c297"> Google, Youtube Executive</div></div><div class="c295"><div class="c296"> Tom Duterme</div><div class="c297"> Google, Youtube Executive</div><div class="c298"></div><div class="c299"></div><div class="c300"> Internet properties’ monetization expert. Headed Youtube’s corporate development. Previously a leader at Google. Entrepreneur,Blockchain enthusiast. Macalester College BA and MIT Sloan MBA degrees.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Dr. Jin Ho Hur ,  Co-Founder &amp; General Partner, SEMA Translink " src="/static/images/advisors/jin-ho-hur.jpg"/><div class="c296"> Dr. Jin Ho Hur</div><div class="c297"> Co-Founder &amp; General Partner, SEMA Translink</div></div><div class="c295"><div class="c296"> Dr. Jin Ho Hur</div><div class="c297"> Co-Founder &amp; General Partner, SEMA Translink</div><div class="c298"></div><div class="c299"><a href="https://www.linkedin.com/in/hurjinho/" title=" Dr. Jin Ho Hur Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Dr. Jin Ho Hur Linkedin Profile"/></a></div><div class="c300"> Successful serial entrepreneur with 20+ years experience in internet, mobile and gaming. Co-founded SEMA Translink, a TMT-focused VC, including blockchain, and a nework of funds operating in Palo Alto, Korea and key Asian markets.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Hitters Xu ,  Nebulas &amp; Antshares (NEO) founder " src="/static/images/advisors/hitters-xu.jpg"/><div class="c296"> Hitters Xu</div><div class="c297"> Nebulas &amp; Antshares (NEO) founder</div></div><div class="c295"><div class="c296"> Hitters Xu</div><div class="c297"> Nebulas &amp; Antshares (NEO) founder</div><div class="c298"></div><div class="c299"><a href="https://www.linkedin.com/in/hitters" title=" Hitters Xu Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Hitters Xu Linkedin Profile"/></a></div><div class="c300"> Nebulas &amp; Antshares (NEO) founder, former founding leader of Ant Financial&#x27;s Blockchain Platform. Graduated from Tongji University in Computer Science and Technology. 2013, he has founded BitsClub (the first Blockchain/ Bitcoin innovation community in China). he has organized a series of influential international blockchain summits.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Jae Kim ,  ICO Expert " src="/static/images/advisors/jae-kim.jpg"/><div class="c296"> Jae Kim</div><div class="c297"> ICO Expert</div></div><div class="c295"><div class="c296"> Jae Kim</div><div class="c297"> ICO Expert</div><div class="c298"></div><div class="c299"><a href="https://www.linkedin.com/in/jae-kim-3b8755146" title=" Jae Kim Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Jae Kim Linkedin Profile"/></a></div><div class="c300"> Entrepreneur and blockchain technology evangelist to Korea! President of D com Inc.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Addison Huegel ,  Blockchain and ICO marketing and communications specialist " src="/static/images/advisors/addison.jpg"/><div class="c296"> Addison Huegel</div><div class="c297"> Blockchain and ICO marketing and communications specialist</div></div><div class="c295"><div class="c296"> Addison Huegel</div><div class="c297"> Blockchain and ICO marketing and communications specialist</div><div class="c298"></div><div class="c299"><a href="https://www.linkedin.com/in/addisonhuegel/" title=" Addison Huegel Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Addison Huegel Linkedin Profile"/></a></div><div class="c300"> Launched and promoted many successful blockchain startups and served as a consultant to the Ethereum Foundation throughout 2015.  Currently the Managing Partner and Media Director of Elevator Communications, LLC.</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Justin Sun ,  Tron Lab Founder " src="/static/images/advisors/justin-sun.jpg"/><div class="c296"> Justin Sun</div><div class="c297"> Tron Lab Founder</div></div><div class="c295"><div class="c296"> Justin Sun</div><div class="c297"> Tron Lab Founder</div><div class="c298"></div><div class="c299"><a href="https://www.linkedin.com/in/sunyuchen/" title=" Justin Sun Linkedin Profile"><img src="/static/images/home-team/icon-linkedin.svg" alt=" Justin Sun Linkedin Profile"/></a></div><div class="c300"> Founder of Peiwo APP, 2017 Forbes Asia, 30 under 30, Protégé of Jack Ma, the Founder of Alibaba GroupGlobal Shaper, World Economic Forum, Former Chief Representative in Greater China of Ripple</div></div></div><div class="c293"><div class="c294" tabindex="-1"><img alt=" Yubo Ruan ,  Founder of 8 Decimal Capital " src="/static/images/advisors/yubo.jpg"/><div class="c296"> Yubo Ruan</div><div class="c297"> Founder of 8 Decimal Capital</div></div><div class="c295"><div class="c296"> Yubo Ruan</div><div class="c297"> Founder of 8 Decimal Capital</div><div class="c298"></div><div class="c299"></div><div class="c300"> Yubo is the founder of 8 Decimal Capital, one of the leading blockchain investment firm in Silicon Valley. Yubo is the co-founder of Skylight Investment, an early stage tech investment firm, backed by Taiyou Fund and New Oriental(NYSE:EDU). Previously, Yubo started two highly successful companies, held 4 national patents and won the 2017 AACYF 30 under 30</div></div></div></div></div></div></div></div><div id="roadmap-section" class="c308 c309"><div class="c301"><h2 style="position:relative">Roadmap</h2><div class="c319"><div class="top"><div class="time-line-box active empty"><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">
-    PHASE 1 </div><div class="description"> Alpha version : Centralized GIFTO Protocol working in external content platforms
-    </div></div></div><div class="time-line-box  "><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">   Q1 2018 - PHASE 2 </div><div class="description"> Beta version : Decentralized GIFTO Protocol in Blockchain working in external environment
-    </div></div></div><div class="time-line-box  empty"><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">   PHASE 3 </div><div class="description"> Commercial version 1 of GIFTO Protocol launch
-    </div></div></div><div class="time-line-box  "><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">   Q3 2018 AND ON GOING </div><div class="description"> Ongoing iterations and expansions
-    </div></div></div></div><div class="bar"></div><div class="bottom"><div class="time-line-box active "><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">
-    PHASE 1 </div><div class="description"> Alpha version : Centralized GIFTO Protocol working in external content platforms
-    </div></div></div><div class="time-line-box  empty"><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">   Q1 2018 - PHASE 2 </div><div class="description"> Beta version : Decentralized GIFTO Protocol in Blockchain working in external environment
-    </div></div></div><div class="time-line-box  "><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">   PHASE 3 </div><div class="description"> Commercial version 1 of GIFTO Protocol launch
-    </div></div></div><div class="time-line-box  empty"><div class="dot"><div class="waves"></div></div><div class="pointer"></div><div class="box-content"><div class="date">   Q3 2018 AND ON GOING </div><div class="description"> Ongoing iterations and expansions
-    </div></div></div></div></div></div><canvas style="position:absolute;left:0;right:0;top:0;bottom:0;z-index:0;pointer-events:none"></canvas></div><div class="c327 c326"><div class="c320"><h2>Testimonials</h2><div class="c339"><img class="c342" src="/static/images/home_testimo/jason_zhao.jpg" alt="Jason Zhao, Partner, KPCB"/><div class="c345"><div class="c340"><p></p><span style="font-size:4em;line-height:0.4em;vertical-align:top;transform:translateY(50%)">“ </span>Asia Innovations Group has been at the forefront of exploring new technology and products.  Andy and Ouyang have a wealth of experience scaling and growing global products.  We are excited about AIG’s future growth and potential.</div><div class="c341">------ <!-- -->Jason Zhao, Partner, KPCB</div></div></div><div class="c339"><img class="c342" src="/static/images/home_testimo/joe-lonsdale.jpg" alt="Joe Lonsdale, founder, 8VC, Palantir"/><div class="c345"><div class="c340"><p></p><span style="font-size:4em;line-height:0.4em;vertical-align:top;transform:translateY(50%)">“ </span> Asia Innovations Group has proven itself as an innovative leader in the mobile interactive entertainment space. The team’s deep background in creating successful mobile social products are key to Uplive’s phenomenal growth, and I believe they will be able to apply new technologies such as blockchain to this exciting market.</div><div class="c341">------ <!-- -->Joe Lonsdale, founder, 8VC, Palantir</div></div></div><div class="c339"><img class="c342" src="/static/images/home_testimo/justin_waldron.jpg" alt="Justin Waldron, co-founder of Zynga (NASDAQ: ZNGA)"/><div class="c345"><div class="c340"><p></p><span style="font-size:4em;line-height:0.4em;vertical-align:top;transform:translateY(50%)">“ </span> AIG has deep experience in scaling virtual currencies to the largest global audiences in the world with both their current products and Andy&#x27;s former experience as the GM of Zynga China. Few people in the world have the experience to build this as well as the AIG’s team, and they have the backing of some of the best investors from Silicon Valley and Asia.</div><div class="c341">------ <!-- -->Justin Waldron, co-founder of Zynga (NASDAQ: ZNGA)</div></div></div><div class="c339"><img class="c342" src="/static/images/home_testimo/fritz_demopoulos.jpg" alt=" Fritz Demouplos, founder of Qunar.com (NASDAQ: QUNR), leading online travel search engine in China"/><div class="c345"><div class="c340"><p></p><span style="font-size:4em;line-height:0.4em;vertical-align:top;transform:translateY(50%)">“ </span> Asia Innovations Group is one of the preeminent live video platforms that has scaled across a range of important global markets, including China, the Middle East and North Asia. The founding team are a new breed of seasoned entrepreneurs willing to exploit new technologies, enter new markets, and build exceptional engineering and product teams. The company has a clear, long runway of success ahead of itself.</div><div class="c341">------ <!-- --> Fritz Demouplos, founder of Qunar.com (NASDAQ: QUNR), leading online travel search engine in China</div></div></div><br/></div></div><div class="c353 c354 c364"><div class="c346"><img class="c350 c356 undefined" src="/static/images/uplive-section/liveitup.png" alt="Live it up" style="width:80%;max-width:700px"/><div class="c356 storelink"><a href="https://itunes.apple.com/app/id1102727568" title="Uplive Apple store Link"><img class="c350" src="/static/images/uplive-section/ios.png" alt="Apple store"/></a><a href="https://play.google.com/store/apps/details?id=com.asiainno.uplive" title="Uplive Google store Link"><img class="c350" src="/static/images/uplive-section/google.png" alt="Google store"/></a></div></div></div><div id="partner-section" class="c372 c367"><div class="c365"><h2>Our Partners</h2><div class="c120 c141 c127"><div class="c121 c150 c161 c173"><a title="Binance Launchpad" href="https://launchpad.binance.com/" target="_blank" rel="noopener"><img class="c369" style="width:110%;max-width:110%;margin:0 -5%" src="/static/images/home-partner/binance-logo.png?r=456" alt="Binance Launchpad Logo"/></a></div><div class="c121 c150 c161 c173"><a title="Taylor Vinters Via" href="https://www.taylorvinters.com/" target="_blank" rel="noopener"><img class="c369" src="/static/images/home-partner/taylor-vinters-via.jpg" alt="Taylor Vinters Via"/></a></div><div class="c121 c150 c161 c173"><a title="Ogier" href="https://www.ogier.com/" target="_blank" rel="noopener"><img class="c369" src="/static/images/home-partner/ogier-logo.png" alt="Ogier"/></a></div><div class="c121 c150 c161 c173"><a title="KKCoin" href="https://www.kkcoin.com/index" target="_blank" rel="noopener"><img class="c369" style="width:75%;max-width:75%" src="/static/images/home-partner/kkcoin.png" alt="KKCoin Logo"/></a></div><div class="c121 c150 c161 c173"><a title="Orichal" href="https://orichal.io/" target="_blank" rel="noopener"><img class="c369" src="/static/images/home-partner/orichal-logo.png" alt="Orichal"/></a></div><div class="c121 c150 c161 c173"><a title="Kyper Network" href="https://kyber.network/" target="_blank" rel="noopener"><img class="c369" src="/static/images/home-partner/kyper-network-logo.png" alt="Kyper Network Logo"/></a></div><div class="c121 c150 c161 c173"><a title="Preangel" href="http://www.preangelfund.cn/" target="_blank" rel="noopener"><img class="c369" style="width:80%;max-width:80%" src="/static/images/home-partner/preangel-logo.png" alt="Preangel Logo"/></a></div><div class="c121 c150 c161 c173"><a title="NodeCapital" href="http://www.nodecap.com/" target="_blank" rel="noopener"><img class="c369" style="width:80%;max-width:80%" src="/static/images/home-partner/nodecapital-logo.png" alt="NodeCapital Logo"/></a></div><div class="c121 c150 c161 c173"><a title="Black Dot" href="https://www.blackdot.sg/" target="_blank" rel="noopener"><img class="c369" style="width:42%;max-width:42%" src="/static/images/home-partner/blackdot-logo.png" alt="Black Dot Logo"/></a></div><div class="c121 c150 c161 c173"><a title="Nebulas" href="https://nebulas.io/" target="_blank" rel="noopener"><img class="c369" style="width:80%;max-width:80%" src="/static/images/home-partner/nebulaslogo.svg" alt="Nebulas Logo"/></a></div><div class="c121 c150 c161 c173"><a title="Asia Model Festival" href="http://amfoc.org/en/" target="_blank" rel="noopener"><img class="c369" style="width:80%;max-width:80%" src="/static/images/home-partner/amf.jpg" alt="Asia Model Festival Logo"/></a></div></div></div></div><div id="invest-section" class="c390 c385"><div class="c383"><h2>Our Investors</h2><div class="c120 c141 c127 c138"><div class="c121 c150 c161 c173"><a title="Pantera" href="https://panteracapital.com/" target="_blank" rel="noopener"><img class="c387" style="width:80%;max-width:80%;margin:30px auto" src="/static/images/home-partner/pantera-logo.png" alt="Pantera Logo"/></a></div><div class="c121 c150 c161 c173"><a title="BlockAsset" href="https://blockasset.io/" target="_blank" rel="noopener"><img class="c387" style="width:80%;max-width:80%;margin:30px auto" src="/static/images/home-investor/blockasset.png" alt="BlockAsset Logo"/></a></div><div class="c121 c150 c161 c173"><a title="KPCB KLEINER PERKINS CAUFIELD BYERS" href="https://www.kpcb.com/" target="_blank" rel="noopener"><img class="c387" src="/static/images/home-investor/kpcb.png" alt="KPCB KLEINER PERKINS CAUFIELD BYERS"/></a></div><div class="c121 c150 c161 c173"><a title="MSA" href="http://www.magicstoneinvest.com/" target="_blank" rel="noopener"><img class="c387" src="/static/images/home-investor/msa.png" alt="MSA"/></a></div><div class="c121 c150 c161 c173"><a title="Index Ventures" href="https://www.indexventures.com/" target="_blank" rel="noopener"><img class="c387" src="/static/images/home-investor/ventures.png" alt="Index Ventures"/></a></div><div class="c121 c150 c161 c173"><a title="WICKLOW CAPITAL"><img class="c387" src="/static/images/home-investor/wicklow.png" alt="WICKLOW CAPITAL"/></a></div><div class="c121 c150 c161 c173"><a title="WHITE STAR CAPITAL" href="https://whitestarvc.com/" target="_blank" rel="noopener"><img class="c387" style="width:55%;max-width:55%;margin:0 auto" src="/static/images/home-investor/whitestar.png" alt="WHITE STAR CAPITAL"/></a></div><div class="c121 c150 c161 c173"><a title="VENTECH" href="http://www.ventechvc.com/" target="_blank" rel="noopener"><img class="c387" style="width:55%;max-width:55%;margin:0 auto" src="/static/images/home-investor/ventech.png" alt="VENTECH"/></a></div><div class="c121 c150 c161 c173"><a title="Signum Capital" href="http://www.signum.capital/" target="_blank" rel="noopener"><img class="c387" src="/static/images/home-investor/signum-capital-logo.jpg" alt="Signum Capital"/></a></div></div></div></div><div id="press-section" class="c408 c403"><div class="c401"><h2>Press Releases</h2><div class="c120 c141 c127 c138"><div class="c121 c156 c169 c176 c188 c420"><img src="/static/images/home-press/newsbtc.png" alt="scmp"/><div class="c419"><p>Gifto and TRON partner to monetize decentralized content</p><p><a target="_blank" rel="noopener" title="Gifto and TRON partner to monetize decentralized content" href="https://www.newsbtc.com/press-releases/gifto-tron-partner-monetize-decentralized-content/">www.newsbtc.com</a></p></div></div><div class="c121 c156 c169 c176 c188 c420"><img src="/static/images/home-press/businesswire.png" alt="scmp"/><div class="c419"><p>World’s Leading Crypto Exchange Binance Partners With Uplive - Asia’s Premier Live Video Platform</p><p><a target="_blank" rel="noopener" title="World’s Leading Crypto Exchange Binance Partners With Uplive - Asia’s Premier Live Video Platform" href="https://www.businesswire.com/news/home/20171228005141/en/World%E2%80%99s-Leading-Crypto-Exchange-Binance-Partners-Uplive">www.businesswire.com</a></p></div></div><div class="c121 c156 c169 c176 c188 c420"><img src="/static/images/home-press/crowdfundinsider.png" alt="scmp"/><div class="c419"><p>Wow!: Gift Blockchain Platform GIFTO’s Token Sale Sells Out in 60 Seconds</p><p><a target="_blank" rel="noopener" title="Wow!: Gift Blockchain Platform GIFTO’s Token Sale Sells Out in 60 Seconds" href="https://www.crowdfundinsider.com/2017/12/125907-wow-gifto-token-sale-sells-60-seconds/">www.crowdfundinsider.com</a></p></div></div><div class="c121 c156 c169 c176 c188 c420"><img src="/static/images/home-press/theicodaily.png" alt="scmp"/><div class="c419"><p>CRYPTO EXCHANGE BINANCE CREATES NEW PARTNERSHIP WITH UPLIVE, CREATOR OF GIFTO	</p><p><a target="_blank" rel="noopener" title="CRYPTO EXCHANGE BINANCE CREATES NEW PARTNERSHIP WITH UPLIVE, CREATOR OF GIFTO	" href="http://theicodaily.com/crypto-exchange-binance-creates-new-partnership-with-uplive-creator-of-gifto/">theicodaily.com</a></p></div></div><div class="c121 c156 c169 c176 c188 c420"><img src="/static/images/home-press/bitcoin-magazine.png" alt="scmp"/><div class="c419"><p>Gifto’s Vision for the Virtual Gifting Economy</p><p><a target="_blank" rel="noopener" title="Gifto’s Vision for the Virtual Gifting Economy" href="https://bitcoinmagazine.com/articles/giftos-vision-virtual-gifting-economy/">bitcoinmagazine.com</a></p></div></div><div class="c121 c156 c169 c176 c188 c420"><img src="/static/images/home-press/crowdfundinsider.png" alt="scmp"/><div class="c419"><p>Blockchain “Virtual Gifting Protocol”Gifto</p><p><a target="_blank" rel="noopener" title="Blockchain “Virtual Gifting Protocol”Gifto" href="https://www.crowdfundinsider.com/2017/12/125315-blockchain-virtual-gifting-protocolgifto-launched-former-head-zynga-china-adds-investors-plans-30-million-ico/">www.crowdfundinsider.com</a></p></div></div><div class="c121 c156 c169 c182 c195" style="text-align:center"><button tabindex="0" class="c77 c62" type="button" role="button"><span class="c64">View more <i class="material-icons" style="vertical-align:middle">keyboard_arrow_down</i></span><span class="c79"></span></button></div></div></div></div><div><div class="c445  SocialIconFloat"><input type="checkbox" id="socialtoggle"/><label for="socialtoggle"><i class="material-icons c446"></i></label><a href="https://t.me/GIFTOOfficial" title="GIFTO Telegram chanel" target="_blank" rel="noopener" class="icon-4"><img width="50" src="/static/images/presale/icon-telegram.svg" alt="GIFTO Telegram chanel"/></a><a href="https://medium.com/@GIFTO" title="GIFTO Medium blog" target="_blank" rel="noopener" class="icon-3"><img width="50" src="/static/images/presale/icon-medium.svg" alt="GIFTO Medium blog"/></a><a href="https://twitter.com/GIFTO_io" title="GIFTO Twitter chanel" target="_blank" rel="noopener" class="icon-2"><img width="50" src="/static/images/presale/icon-tw.svg" alt="GIFTO Twitter chanel"/></a><a href="https://open.kakao.com/o/ggLQMiC" title="GIFTO Kakao chanel" target="_blank" rel="noopener" class="icon-1"><img width="50" src="/static/images/presale/icon-kakao.svg" alt="GIFTO Kakao chanel"/></a></div><div class="c428 c429 c442"><div class="c421"><div class="c120"><div class="c121 c156 c163 c174"><a class="c439" href="/#our-mission-section">GIFTO</a><a class="c439" href="/#roadmap-section">Roadmap</a><a class="c439" href="/#team-section">Team</a><a class="c439" href="/faq" title="FAQ">FAQ</a></div><div class="c121 c156 c163 c173"><a class="c439" href="/#press-section">Press</a><a class="c439" href="/blog" title="Blog">Blog</a><div class="c439" title="Download GIFTO Whitepaper" style="cursor:pointer">Whitepaper</div></div><div class="c121 c156 c169 c175"><div class="c431 undefined"><a href="https://t.me/GIFTOOfficial" title="GIFTO Telegram chanel" target="_blank" rel="noopener" class="icon-8"><img width="50" src="/static/images/presale/icon-telegram.svg" alt="GIFTO Telegram chanel"/></a><a href="https://twitter.com/GIFTO_io" title="GIFTO Twitter chanel" target="_blank" rel="noopener" class="icon-6"><img width="50" src="/static/images/presale/icon-tw.svg" alt="GIFTO Twitter chanel"/></a><a href="https://www.reddit.com/user/GIFTO-io/" title="GIFTO Reddit chanel" target="_blank" rel="noopener" class="icon-5"><img width="50" src="/static/images/presale/icon-reddit.svg" alt="GIFTO Reddit chanel"/></a><a href="https://www.facebook.com/gifto.io/" title="GIFTO Facebook chanel" target="_blank" rel="noopener" class="icon-4"><img width="50" src="/static/images/presale/icon-fb.svg" alt="GIFTO Facebook chanel"/></a><a href="https://github.com/GIFTO-io" title="GIFTO Gthub chanel" target="_blank" rel="noopener" class="icon-3"><img width="50" src="/static/images/presale/icon-git.svg" alt="GIFTO Gthub chanel"/></a><a href="https://open.kakao.com/o/ggLQMiC" title="GIFTO Kakao chanel" target="_blank" rel="noopener" class="icon-2"><img width="50" src="/static/images/presale/icon-kakao.svg" alt="GIFTO Kakao chanel"/></a><a href="https://medium.com/@GIFTO" title="GIFTO Medium blog" target="_blank" rel="noopener" class="icon-1"><img width="50" src="/static/images/presale/icon-medium.svg" alt="GIFTO Medium blog"/></a></div></div></div><hr class="c440"/><div class="c441"><span>©2017 GIFTO </span> <a href="/privacypolicy" title="Privacy Policy">Privacy Policy</a> <a href="/termsofuse" title="Term of Use">Term of Use</a> <a href="/termsofsale.pdf" title="Terms of Sale" target="_blank" rel="noopener">Terms of Sale</a></div></div></div></div><div></div></div></div></div><div id="__next-error"></div></div><div><script>
-          __NEXT_DATA__ = {"props":{},"pathname":"/","query":{},"buildId":"5e6c2160-04c9-41b9-bdef-5e766aa61005","buildStats":{"app.js":{"hash":"e573161ac2e341feea756f3892b127fb"}},"assetPrefix":"","nextExport":true,"err":null,"chunks":[]}
-          module={}
-          __NEXT_LOADED_PAGES__ = []
-          __NEXT_LOADED_CHUNKS__ = []
-
-          __NEXT_REGISTER_PAGE = function (route, fn) {
-            __NEXT_LOADED_PAGES__.push({ route: route, fn: fn })
-          }
-
-          __NEXT_REGISTER_CHUNK = function (chunkName, fn) {
-            __NEXT_LOADED_CHUNKS__.push({ chunkName: chunkName, fn: fn })
-          }
-        </script><script async="" id="__NEXT_PAGE__/" type="text/javascript" src="/_next/5e6c2160-04c9-41b9-bdef-5e766aa61005/page/index.js"></script><script async="" id="__NEXT_PAGE__/_error" type="text/javascript" src="/_next/5e6c2160-04c9-41b9-bdef-5e766aa61005/page/_error.js"></script><div></div><script type="text/javascript" src="/_next/e573161ac2e341feea756f3892b127fb/app.js" async=""></script></div></body></html>

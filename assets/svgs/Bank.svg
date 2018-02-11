@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5663"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Bank.svg">
+  <defs
+     id="defs5657">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42-49-5">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 0,367 H 382 V 0 H 0 Z"
+         id="path44-5-0" />
+    </clipPath>
+    <clipPath
+       id="_clip1">
+      <rect
+         id="rect93"
+         height="39"
+         width="38"
+         y="0"
+         x="0" />
+    </clipPath>
+    <clipPath
+       id="_clip2">
+      <rect
+         id="rect96"
+         height="38"
+         width="38"
+         y="0.417"
+         x="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="35.71341"
+     inkscape:cy="583.77211"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1914"
+     inkscape:window-height="2019"
+     inkscape:window-x="-10"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5660">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       style="clip-rule:evenodd;display:inline;opacity:1;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41420996"
+       id="g132"
+       transform="matrix(2.8466206,0,0,2.8466206,48.310376,99.600184)">
+      <g
+         id="g111">
+        <g
+           id="g109">
+          <clipPath
+             id="clipPath5817">
+            <rect
+               id="rect5815"
+               height="39"
+               width="38"
+               y="0"
+               x="0" />
+          </clipPath>
+          <g
+             id="g107"
+             clip-path="url(#_clip1)">
+            <clipPath
+               id="clipPath5821">
+              <rect
+                 id="rect5819"
+                 height="38"
+                 width="38"
+                 y="0.417"
+                 x="0" />
+            </clipPath>
+            <g
+               id="g105"
+               clip-path="url(#_clip2)">
+              <path
+                 id="path99"
+                 style="fill:#147ac9;fill-rule:nonzero"
+                 d="M 35.875,34.581 H 1.707 C 0.766,34.581 0,35.347 0,36.292 c 0,0.942 0.766,1.707 1.707,1.707 h 34.168 c 0.945,0 1.711,-0.765 1.711,-1.707 -0.004,-0.945 -0.766,-1.711 -1.711,-1.711 z"
+                 inkscape:connector-curvature="0" />
+              <path
+                 id="path101"
+                 style="fill:#147ac9;fill-rule:nonzero"
+                 d="m 3.844,30.14 c -0.946,0 -1.707,0.765 -1.707,1.707 0,0.945 0.761,1.711 1.707,1.711 h 29.894 c 0.946,0 1.711,-0.766 1.711,-1.711 0,-0.942 -0.765,-1.707 -1.711,-1.707 H 33.312 V 14.765 h 0.426 c 0.473,0 0.856,-0.383 0.856,-0.856 0,-0.468 -0.383,-0.851 -0.856,-0.851 H 3.844 c -0.473,0 -0.852,0.383 -0.852,0.851 0,0.473 0.379,0.856 0.852,0.856 H 4.27 V 30.14 Z M 29.895,14.765 V 30.14 H 24.77 V 14.765 Z m -8.54,0 V 30.14 H 16.23 V 14.765 Z m -13.667,0 h 5.124 V 30.14 H 7.688 Z"
+                 inkscape:connector-curvature="0" />
+              <path
+                 id="path103"
+                 style="fill:#147ac9;fill-rule:nonzero"
+                 d="m 1.707,11.523 h 34.184 c 0.945,0 1.711,-0.766 1.711,-1.711 0,-0.75 -0.485,-1.387 -1.157,-1.617 L 19.492,0.566 c -0.445,-0.2 -0.953,-0.2 -1.398,0 L 1.008,8.253 c -0.735,0.332 -1.141,1.133 -0.97,1.918 0.169,0.789 0.863,1.352 1.669,1.352 z"
+                 inkscape:connector-curvature="0" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
