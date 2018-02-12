@@ -1,5 +1,5 @@
 /* Styles for dialog window */
-#small-dialog {
+.small-dialog {
 	background: white;
 	padding: 20px 30px;
 	text-align: left;
@@ -178,9 +178,6 @@ p {
   font-size: 30px;
 }
 
-#particles-js{
-  background-image: linear-gradient( 135deg, #00f260, #0575e6);
-}
 
 .navbar-opacity {
   opacity: 0.85;
@@ -217,6 +214,78 @@ body {
   margin-top: 2em;
 }
 
+.underline-header h2::after{
+  left: 0;
+  bottom: -0.1em;
+  content: '';
+  position: absolute;
+  min-width: 3em;
+  min-height: 0.07em;
+  background: #0575E6;
+}
+
+
+.underline-header h2 {
+  color: #1B1D23;
+  position: relative;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+}
+
+
+
+.important-listings {
+  color: #1B1D23;
+  font-size: 1em;
+  max-width: 630px;
+}
+.important-listings > *  {
+  margin-left: 1.7em;
+}
+.important-listings > :before {
+  content: '✻';
+  font-size: 0.7em;
+  margin-left: -1.7em;
+  margin-right: 0.7em;
+}
+.important-listings b {
+  color:  #1B1D23;
+}
+
+
+.margin-top {
+  margin-top: 1em;
+}
+
+
+
+
+.box-shadow {
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+}
+
+.forget-bottom-shadow {
+    box-shadow: inset 0 10px 10px -10px  #000000;
+}
+
+
+
+
+.page-header {
+  -webkit-transition: top 0.6s;
+ -moz-transition: top 0.6s;
+ transition: top 0.6s;
+}
+
+.page-header.off-canvas { top: -89px; }
+
+.page-header.fixed {
+  top: 0;
+  z-index: 9999;
+}
 
 
 
@@ -594,7 +663,7 @@ body {
   color: #fff;
 }
 .c28 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c29 {
   color: #fff;
@@ -1443,7 +1512,7 @@ body {
   color: #fff;
 }
 .c429 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c430 {
   color: #fff;
@@ -1694,7 +1763,7 @@ body {
   color: #fff;
 }
 .c9 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c10 {
   color: #fff;
@@ -1789,7 +1858,6 @@ body {
 .c87 {
   color: #666;
   position: relative;
-  box-shadow: inset 0px 8px 24px -3px rgba(0,0,0,0.1);
   padding-top: 100px;
   padding-bottom: 40px;
 }
@@ -1835,20 +1903,21 @@ body {
   }
 }
 .c87 ~ * {
-  box-shadow: inset 0px 8px 24px -3px rgba(0,0,0,0.1);
+
 }
 .c88 {
   color: #fff;
-  background-image: linear-gradient( 135deg, #6f00c2 0%,#851be3 22%,#851be3 35%, #5800bc 70%,#5500b5 100%);
+  background-image: linear-gradient( 135deg, #00f260, #0575e6);
+
 }
 .c88 h2 {
   color: #fff;
 }
 .c88 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c88 + * {
-  box-shadow: none !important;
+
 }
 .c89 {
   padding:  0 3em !important;
@@ -2365,7 +2434,7 @@ body {
   color: #fff;
 }
 .c217 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c218 {
   color: #fff;
@@ -2616,7 +2685,7 @@ body {
   color: #fff;
 }
 .c263 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c264 {
   color: #fff;
@@ -2807,7 +2876,7 @@ body {
   color: #fff;
 }
 .c237 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c238 {
   color: #fff;
@@ -3062,7 +3131,7 @@ body {
   color: #fff;
 }
 .c309 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c310 {
   color: #fff;
@@ -3169,7 +3238,7 @@ body {
   margin: 30px -3%;
   height: 2px;
   position: relative;
-  background: linear-gradient(to right, rgba(40, 254, 240, 1) 0%, rgba(40, 254, 240, 1) 50%, rgba(40, 254, 240, 0.8) 100%);
+  background: #0575E6;
 }
 .c319 .bottom {
   display: flex;
@@ -3251,7 +3320,7 @@ body {
   height: 12px;
   z-index: 2;
   position: absolute;
-  background: #28FEF0;
+  background: #0575E6;
   border-radius: 50%;
 }
 .c319 .time-line-box .pointer {
@@ -3368,7 +3437,7 @@ body {
   color: #fff;
 }
 .c282 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c283 {
   color: #fff;
@@ -3672,7 +3741,7 @@ body {
   color: #fff;
 }
 .c328 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c329 {
   color: #fff;
@@ -3933,7 +4002,7 @@ body {
   color: #fff;
 }
 .c354 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c355 {
   color: #fff;
@@ -4134,7 +4203,7 @@ body {
   color: #fff;
 }
 .c373 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c374 {
   color: #fff;
@@ -4309,7 +4378,7 @@ body {
   color: #fff;
 }
 .c391 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c392 {
   color: #fff;
@@ -4481,7 +4550,7 @@ body {
   color: #fff;
 }
 .c409 h2:after {
-  background: #28fef0;
+  background: #0575E6;
 }
 .c410 {
   color: #fff;
