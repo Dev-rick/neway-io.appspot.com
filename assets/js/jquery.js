@@ -27,7 +27,7 @@ $( document ).ready(function() {
           scroll = $(document).scrollTop();
          });
 
-
+    
 
     $('.popup-with-zoom-anim').magnificPopup({
 		type: 'inline',

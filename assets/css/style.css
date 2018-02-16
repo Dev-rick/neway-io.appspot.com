@@ -254,8 +254,11 @@ body {
 }
 
 
-.margin-top {
+.margin-top-s {
   margin-top: 1em;
+}
+.margin-top-l {
+  margin-top: 3em;
 }
 
 
@@ -275,9 +278,9 @@ body {
 
 
 .page-header {
-  -webkit-transition: top 0.6s;
- -moz-transition: top 0.6s;
- transition: top 0.6s;
+  -webkit-transition: top 0.4s;
+ -moz-transition: top 0.4s;
+ transition: top 0.4s;
 }
 
 .page-header.off-canvas { top: -89px; }
@@ -286,6 +289,33 @@ body {
   top: 0;
   z-index: 9999;
 }
+
+
+
+
+
+.background {
+		display: inline-block;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 4px 4px 4px #aaa;
+}
+
+
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+.pointer {cursor: pointer;}
+
+
+
 
 
 
@@ -1858,7 +1888,7 @@ body {
 .c87 {
   color: #666;
   position: relative;
-  padding-top: 100px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 .c87 h2 {
@@ -1925,6 +1955,7 @@ body {
 .c89 h1 {
   font-size: 2.8em;
   font-weight: 600;
+	margin-top: 30px;
 }
 @media(max-width : 600px) {
   .c89 {
@@ -2370,6 +2401,10 @@ body {
   font-weight: 600;
 }
 
+.c216 h2.white {
+  color: white;
+}
+
 .c216 h2:after {
   left: 0;
   bottom: -0.2em;
@@ -2397,7 +2432,16 @@ body {
     font-size: 1.2em;
   }
 
+.c216 .mt-0 {
+	color: black;
+	font-weight: 600;
+}
 
+@media(max-width : 5000px) {
+	.c216 .mr-1 {
+		max-width: 5em;
+	}
+}
 
 @media(max-width : 960px) {
   .c216 {
@@ -2406,6 +2450,9 @@ body {
   .c216 .important-direction {
     font-size: 28px;
   }
+	.c216 .mr-1 {
+		max-width: 5em;
+	}
 }
 @media(max-width : 600px) {
   .c216 {
@@ -2417,6 +2464,9 @@ body {
   .c216 .important-direction {
     font-size: 25px;
   }
+	.c216 .mr-1 {
+		max-width: 5em;
+	}
 }
 @media(max-width : 360px) {
   .c216 {
@@ -2425,6 +2475,9 @@ body {
   .c216 .important-direction {
     font-size: 35px;
   }
+	.c216 .mr-1 {
+		max-width: 5em;
+	}
 }
 .c217 {
   color: #fff;
@@ -3525,13 +3578,14 @@ body {
 }
 @media(max-width : 600px) {
   .c293 {
-    width: 47%;
-    margin: 1em 0;
+    width: 40%;
+    margin: 1em;
   }
 }
 @media(max-width : 500px) {
   .c293 {
     font-size: 0.8em;
+		margin: 1em;
   }
 }
 @media(min-width : 500px) {
@@ -3590,7 +3644,7 @@ body {
 .c295 {
   top: 50%;
   left: 50%;
-  color: #fff;
+  color: #333;
   width: 100%;
   z-index: 1;
   opacity: 0;
@@ -3599,7 +3653,7 @@ body {
   transform: scale(0.7) translate(-50%,-50%);
   font-size: 0.9em;
   min-width: 230px;
-  background: rgba(150, 70, 203, 0.77);
+  background: white;
   text-align: center;
   transition: opacity 0.25s,transform 0.25s;
   min-height: 100%;
