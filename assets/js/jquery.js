@@ -1,6 +1,11 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
+
+
+
+
+
     $("a.nav-link").click(function() {
        $(".navbar-toggler").attr("aria-expanded", "false");
        $(".navbar-toggler").addClass("collapsed");
@@ -27,7 +32,7 @@ $( document ).ready(function() {
           scroll = $(document).scrollTop();
          });
 
-    
+
 
     $('.popup-with-zoom-anim').magnificPopup({
 		type: 'inline',

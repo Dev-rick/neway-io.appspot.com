@@ -8,6 +8,19 @@
 	position: relative;
 }
 
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-device-width: 992px) {
+  .img-responsive {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+
 
 /**
  * Fade-zoom animation for first dialog
@@ -273,6 +286,9 @@ body {
 .forget-bottom-shadow {
     box-shadow: inset 0 10px 10px -10px  #000000;
 }
+.forget-top-shadow {
+    box-shadow: inset 0 0 0 0  #000000;
+}
 
 
 
@@ -315,8 +331,17 @@ body {
 .pointer {cursor: pointer;}
 
 
+.NEWAY {
+	color: white;
+	font-size: 100px;
+	font-weight: 600;
+}
 
 
+
+.neway-image {
+	margin-bottom:  60px;
+}
 
 
 
@@ -1937,7 +1962,7 @@ body {
 }
 .c88 {
   color: #fff;
-  background-image: linear-gradient( 135deg, #00f260, #0575e6);
+  background-image: linear-gradient( 135deg,  #00f260, #0575e6 );
 
 }
 .c88 h2 {
@@ -2441,6 +2466,12 @@ body {
 	.c216 .mr-1 {
 		max-width: 5em;
 	}
+	.container .mr-1 {
+		max-width: 5em;
+	}
+	.neway-image {
+		max-width: 5em;
+	}
 }
 
 @media(max-width : 960px) {
@@ -2452,6 +2483,18 @@ body {
   }
 	.c216 .mr-1 {
 		max-width: 5em;
+	}
+	.container .mr-1 {
+		max-width: 5em;
+	}
+	.neway-image {
+		max-width: 5em;
+	}
+	.mobile {
+		display: block;
+	}
+	.non-mobile {
+		display: none;
 	}
 }
 @media(max-width : 600px) {
@@ -2467,6 +2510,12 @@ body {
 	.c216 .mr-1 {
 		max-width: 5em;
 	}
+	.container .mr-1 {
+		max-width: 5em;
+	}
+	.neway-image {
+		max-width: 5em;
+	}
 }
 @media(max-width : 360px) {
   .c216 {
@@ -2476,6 +2525,12 @@ body {
     font-size: 35px;
   }
 	.c216 .mr-1 {
+		max-width: 5em;
+	}
+	.container .mr-1 {
+		max-width: 5em;
+	}
+	.neway-image {
 		max-width: 5em;
 	}
 }
